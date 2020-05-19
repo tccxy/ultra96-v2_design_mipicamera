@@ -1,0 +1,1 @@
+cmd_lib/raid6/int32.c := awk -f/home/zw/share/ultra96/mipitest/linux-xlnx/lib/raid6/unroll.awk -vN=32 < /home/zw/share/ultra96/mipitest/linux-xlnx/lib/raid6/int.uc > lib/raid6/int32.c || ( rm -f lib/raid6/int32.c && exit 1 )

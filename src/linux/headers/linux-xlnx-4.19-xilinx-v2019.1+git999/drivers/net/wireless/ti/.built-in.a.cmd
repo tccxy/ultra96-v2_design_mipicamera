@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ti/built-in.a := rm -f drivers/net/wireless/ti/built-in.a; aarch64-xilinx-linux-ar rcSTPD drivers/net/wireless/ti/built-in.a drivers/net/wireless/ti/wlcore/built-in.a drivers/net/wireless/ti/wl18xx/built-in.a drivers/net/wireless/ti/wilink_platform_data.o

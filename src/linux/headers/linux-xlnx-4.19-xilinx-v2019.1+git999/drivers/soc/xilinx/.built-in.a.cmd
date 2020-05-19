@@ -1,0 +1,1 @@
+cmd_drivers/soc/xilinx/built-in.a := rm -f drivers/soc/xilinx/built-in.a; aarch64-xilinx-linux-ar rcSTPD drivers/soc/xilinx/built-in.a drivers/soc/xilinx/zynqmp_power.o drivers/soc/xilinx/zynqmp_pm_domains.o drivers/soc/xilinx/zynqmp/built-in.a

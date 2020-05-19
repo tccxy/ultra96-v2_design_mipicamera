@@ -1,0 +1,4 @@
+kernel/drivers/edac/edac_core.ko
+kernel/drivers/edac/synopsys_edac.ko
+kernel/drivers/edac/cortex_arm64_edac.ko
+kernel/drivers/edac/zynqmp_ocm_edac.ko

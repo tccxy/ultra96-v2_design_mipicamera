@@ -1,0 +1,11 @@
+!<thin>
+//                                              58        `
+ebtables.o/
+ebtable_filter.o/
+ebtable_nat.o/
+ebt_mark.o/
+
+/0              0           0     0     644     779288    `
+/12             0           0     0     644     318544    `
+/30             0           0     0     644     318488    `
+/45             0           0     0     644     329448    `

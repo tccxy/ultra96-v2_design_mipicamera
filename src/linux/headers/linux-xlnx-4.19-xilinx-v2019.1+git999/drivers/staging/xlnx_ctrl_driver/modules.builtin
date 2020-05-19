@@ -1,0 +1,2 @@
+kernel/drivers/staging/xlnx_ctrl_driver/xlnx_frmb.ko
+kernel/drivers/staging/xlnx_ctrl_driver/xlnx_vpss.ko

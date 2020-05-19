@@ -1,0 +1,6 @@
+kernel/drivers/staging/apf/xlnk.ko
+kernel/drivers/staging/apf/xlnk-eng.ko
+kernel/drivers/staging/clocking-wizard/clk-xlnx-clock-wizard.ko
+kernel/drivers/staging/fclk/xilinx_fclk.ko
+kernel/drivers/staging/xlnx_ctrl_driver/xlnx_frmb.ko
+kernel/drivers/staging/xlnx_ctrl_driver/xlnx_vpss.ko

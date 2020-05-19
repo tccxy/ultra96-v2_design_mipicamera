@@ -1,0 +1,4 @@
+kernel/drivers/net/ethernet/cadence/macb.ko
+kernel/drivers/net/ethernet/cavium/common/cavium_ptp.ko
+kernel/drivers/net/ethernet/xilinx/xilinx_emaclite.ko
+kernel/drivers/net/ethernet/xilinx/xilinx_emac.ko

@@ -1,0 +1,12 @@
+!<thin>
+//                                              88        `
+pcie-xilinx-nwl.o/
+dwc/pcie-hisi.o/
+pci-thunder-ecam.o/
+pci-thunder-pem.o/
+pci-xgene.o/
+/0              0           0     0     644     296768    `
+/19             0           0     0     644     151056    `
+/36             0           0     0     644     149960    `
+/56             0           0     0     644     150616    `
+/75             0           0     0     644     163272    `

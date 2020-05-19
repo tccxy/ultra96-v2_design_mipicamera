@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/built-in.a := rm -f drivers/iio/adc/built-in.a; aarch64-xilinx-linux-ar rcSTPD drivers/iio/adc/built-in.a drivers/iio/adc/xilinx-xadc-core.o drivers/iio/adc/xilinx-xadc-events.o drivers/iio/adc/xilinx-ams.o

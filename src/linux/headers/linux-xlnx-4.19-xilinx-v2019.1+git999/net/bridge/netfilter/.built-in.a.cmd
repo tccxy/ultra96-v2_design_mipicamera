@@ -1,0 +1,1 @@
+cmd_net/bridge/netfilter/built-in.a := rm -f net/bridge/netfilter/built-in.a; aarch64-xilinx-linux-ar rcSTPD net/bridge/netfilter/built-in.a net/bridge/netfilter/ebtables.o net/bridge/netfilter/ebtable_filter.o net/bridge/netfilter/ebtable_nat.o net/bridge/netfilter/ebt_mark.o

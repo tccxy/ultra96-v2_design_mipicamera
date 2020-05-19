@@ -1,0 +1,23 @@
+set_property SRC_FILE_INFO {cfile:/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_2/bd_d10d_phy_0.xdc rfile:../../../ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_2/bd_d10d_phy_0.xdc id:1 order:EARLY scoped_inst:inst} [current_design]
+set_property SRC_FILE_INFO {cfile:/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_2/ip_0/bd_d10d_phy_0_hssio_rx.xdc rfile:../../../ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_2/ip_0/bd_d10d_phy_0_hssio_rx.xdc id:2 order:EARLY scoped_inst:inst/inst/bd_d10d_phy_0_rx_support_i/slave_rx.bd_d10d_phy_0_rx_hssio_i/inst} [current_design]
+current_instance inst
+set_property src_info {type:SCOPED_XDC file:1 line:59 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN N2 [get_ports clk_rxp]
+set_property src_info {type:SCOPED_XDC file:1 line:63 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN N5 [get_ports data_rxp[0]]
+set_property src_info {type:SCOPED_XDC file:1 line:66 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN M2 [get_ports data_rxp[1]]
+current_instance
+current_instance inst/inst/bd_d10d_phy_0_rx_support_i/slave_rx.bd_d10d_phy_0_rx_hssio_i/inst
+set_property src_info {type:SCOPED_XDC file:2 line:54 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN N2 [get_ports clk_rxp]
+set_property src_info {type:SCOPED_XDC file:2 line:63 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN P1 [get_ports clk_rxn]
+set_property src_info {type:SCOPED_XDC file:2 line:69 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN N5 [get_ports data_rxp0]
+set_property src_info {type:SCOPED_XDC file:2 line:75 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN N4 [get_ports data_rxn0]
+set_property src_info {type:SCOPED_XDC file:2 line:81 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN M2 [get_ports data_rxp1]
+set_property src_info {type:SCOPED_XDC file:2 line:87 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN M1 [get_ports data_rxn1]

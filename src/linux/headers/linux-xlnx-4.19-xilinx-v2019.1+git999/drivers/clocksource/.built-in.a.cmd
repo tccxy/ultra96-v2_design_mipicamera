@@ -1,0 +1,1 @@
+cmd_drivers/clocksource/built-in.a := rm -f drivers/clocksource/built-in.a; aarch64-xilinx-linux-ar rcSTPD drivers/clocksource/built-in.a drivers/clocksource/timer-of.o drivers/clocksource/timer-probe.o drivers/clocksource/arm_arch_timer.o drivers/clocksource/dummy_timer.o

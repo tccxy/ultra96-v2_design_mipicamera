@@ -1,0 +1,1 @@
+cmd_include/generated/vdso-offsets.h := 	aarch64-xilinx-linux-nm arch/arm64/kernel/vdso/vdso.so.dbg | /home/zw/share/ultra96/mipitest/linux-xlnx/arch/arm64/kernel/vdso/gen_vdso_offsets.sh | LC_ALL=C sort > include/generated/vdso-offsets.h

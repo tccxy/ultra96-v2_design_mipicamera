@@ -1,0 +1,58 @@
+!<thin>
+//                                              602       `
+hdmi.o/
+console/dummycon.o/
+backlight/backlight.o/
+backlight/generic_bl.o/
+fbdev/core/fb_cmdline.o/
+fbdev/core/fb_notify.o/
+fbdev/core/fbmem.o/
+fbdev/core/fbmon.o/
+fbdev/core/fbcmap.o/
+fbdev/core/fbsysfs.o/
+fbdev/core/modedb.o/
+fbdev/core/fbcvt.o/
+fbdev/core/fb_defio.o/
+fbdev/core/fbcon.o/
+fbdev/core/bitblit.o/
+fbdev/core/softcursor.o/
+fbdev/core/cfbfillrect.o/
+fbdev/core/cfbcopyarea.o/
+fbdev/core/cfbimgblt.o/
+fbdev/core/sysfillrect.o/
+fbdev/core/syscopyarea.o/
+fbdev/core/sysimgblt.o/
+fbdev/core/fb_sys_fops.o/
+fbdev/xilinxfb.o/
+display_timing.o/
+videomode.o/
+of_display_timing.o/
+of_videomode.o/
+/0              0           0     0     644     145456    `
+/8              0           0     0     644     179312    `
+/28             0           0     0     644     256528    `
+/51             0           0     0     644     189600    `
+/75             0           0     0     644     174032    `
+/100            0           0     0     644     170608    `
+/124            0           0     0     644     467744    `
+/144            0           0     0     644     189792    `
+/164            0           0     0     644     216512    `
+/185            0           0     0     644     221696    `
+/207            0           0     0     644     222904    `
+/228            0           0     0     644     181920    `
+/248            0           0     0     644     235504    `
+/271            0           0     0     644     489840    `
+/291            0           0     0     644     227592    `
+/313            0           0     0     644     200704    `
+/338            0           0     0     644     207824    `
+/364            0           0     0     644     215432    `
+/390            0           0     0     644     190272    `
+/414            0           0     0     644     192528    `
+/440            0           0     0     644     189008    `
+/466            0           0     0     644     187176    `
+/490            0           0     0     644     186832    `
+/516            0           0     0     644     219096    `
+/534            0           0     0     644     34416     `
+/552            0           0     0     644     11064     `
+/565            0           0     0     644     95760     `
+/586            0           0     0     644     75024     `

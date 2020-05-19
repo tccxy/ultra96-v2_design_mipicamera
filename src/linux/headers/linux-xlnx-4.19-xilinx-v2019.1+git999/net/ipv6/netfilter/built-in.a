@@ -1,0 +1,14 @@
+!<thin>
+//                                              100       `
+ip6_tables.o/
+ip6table_filter.o/
+ip6table_mangle.o/
+nf_log_ipv6.o/
+nf_reject_ipv6.o/
+ip6t_REJECT.o/
+/0              0           0     0     644     562528    `
+/14             0           0     0     644     329120    `
+/33             0           0     0     644     334288    `
+/52             0           0     0     644     368192    `
+/67             0           0     0     644     352048    `
+/85             0           0     0     644     327736    `

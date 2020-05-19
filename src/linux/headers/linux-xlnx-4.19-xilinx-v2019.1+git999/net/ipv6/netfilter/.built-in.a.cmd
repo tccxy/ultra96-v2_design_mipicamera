@@ -1,0 +1,1 @@
+cmd_net/ipv6/netfilter/built-in.a := rm -f net/ipv6/netfilter/built-in.a; aarch64-xilinx-linux-ar rcSTPD net/ipv6/netfilter/built-in.a net/ipv6/netfilter/ip6_tables.o net/ipv6/netfilter/ip6table_filter.o net/ipv6/netfilter/ip6table_mangle.o net/ipv6/netfilter/nf_log_ipv6.o net/ipv6/netfilter/nf_reject_ipv6.o net/ipv6/netfilter/ip6t_REJECT.o

@@ -1,0 +1,11 @@
+!<thin>
+//                                              112       `
+reset/ltc2952-poweroff.o/
+supply/power_supply_core.o/
+supply/power_supply_sysfs.o/
+supply/power_supply_leds.o/
+
+/0              0           0     0     644     119672    `
+/26             0           0     0     644     227056    `
+/54             0           0     0     644     124304    `
+/83             0           0     0     644     95224     `

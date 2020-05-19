@@ -1,0 +1,1 @@
+cmd_drivers/dma/built-in.a := rm -f drivers/dma/built-in.a; aarch64-xilinx-linux-ar rcSTPD drivers/dma/built-in.a drivers/dma/dmaengine.o drivers/dma/of-dma.o drivers/dma/dmatest.o drivers/dma/mediatek/built-in.a drivers/dma/qcom/built-in.a drivers/dma/ti/built-in.a drivers/dma/xilinx/built-in.a

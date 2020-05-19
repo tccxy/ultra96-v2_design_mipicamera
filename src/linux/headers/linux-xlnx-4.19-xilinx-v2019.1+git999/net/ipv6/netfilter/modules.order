@@ -1,0 +1,3 @@
+kernel/net/ipv6/netfilter/nf_nat_ipv6.ko
+kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko
+kernel/net/ipv6/netfilter/nf_tproxy_ipv6.ko

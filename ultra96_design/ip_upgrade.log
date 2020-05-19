@@ -1,0 +1,273 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Apr 30 10:56:07 2020
+| Host         : zw-pc running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xczu3eg-sbva484-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_zynq_ultra_ps_e_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_zynq_ultra_ps_e_0_0 from xilinx.com:ip:zynq_ultra_ps_e:3.2 (Rev. 1) to xilinx.com:ip:zynq_ultra_ps_e:3.3
+
+2. Upgrade messages
+-------------------
+
+Set parameter PSU__GPIO_EMIO__PERIPHERAL__IO to value 95 (source 'default')
+WARNING: upgrade cannot add parameter PSU__USE__USB3_0_HUB with default value 0 : a parameter called PSU__USE__USB3_0_HUB already exists in zynq_ultra_ps_e_v3_3
+WARNING: upgrade cannot add parameter PSU__USE__USB3_1_HUB with default value 0 : a parameter called PSU__USE__USB3_1_HUB already exists in zynq_ultra_ps_e_v3_3
+Set parameter PSU__PROTECTION__FPD_SEGMENTS to value SA:0xFD1A0000 ;SIZE:1280;UNIT:KB ;RegionTZ:Secure ;WrAllowed:Read/Write;subsystemId:PMU Firmware | SA:0xFD000000 ;SIZE:64;UNIT:KB ;RegionTZ:Secure ;WrAllowed:Read/Write;subsystemId:PMU Firmware | SA:0xFD010000 ;SIZE:64;UNIT:KB ;RegionTZ:Secure ;WrAllowed:Read/Write;subsystemId:PMU Firmware | SA:0xFD020000 ;SIZE:64;UNIT:KB ;RegionTZ:Secure ;WrAllowed:Read/Write;subsystemId:PMU Firmware | SA:0xFD030000 ;SIZE:64;UNIT:KB ;RegionTZ:Secure ;WrAllowed:Read/Write;subsystemId:PMU Firmware | SA:0xFD040000 ;SIZE:64;UNIT:KB ;RegionTZ:Secure ;WrAllowed:Read/Write;subsystemId:PMU Firmware | SA:0xFD050000 ;SIZE:64;UNIT:KB ;RegionTZ:Secure ;WrAllowed:Read/Write;subsystemId:PMU Firmware | SA:0xFD610000 ;SIZE:512;UNIT:KB ;RegionTZ:Secure ;WrAllowed:Read/Write;subsystemId:PMU Firmware | SA:0xFD5D0000 ;SIZE:64;UNIT:KB ;RegionTZ:Secure ;WrAllowed:Read/Write;subsystemId:PMU Firmware (source 'default')
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Apr 30 10:56:07 2020
+| Host         : zw-pc running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xczu3eg-sbva484-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_rst_ps8_0_99M_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_rst_ps8_0_99M_0 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Apr 30 10:56:07 2020
+| Host         : zw-pc running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xczu3eg-sbva484-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ps8_0_axi_periph_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_ps8_0_axi_periph_0 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 18) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Apr 30 10:56:07 2020
+| Host         : zw-pc running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xczu3eg-sbva484-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_mipi_csi2_rx_subsyst_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_mipi_csi2_rx_subsyst_0_0 from xilinx.com:ip:mipi_csi2_rx_subsystem:3.0 (Rev. 3) to xilinx.com:ip:mipi_csi2_rx_subsystem:4.0 (Rev. 1)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Warnings
+-----------
+
+WARNING: MIPI D-PHY serial interface signals(*_rxp,*_rxn) grouped as a bus interface(mipi_phy_if)
+Upgrade will automatically remap old ports to new interface ports
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_mipi_csi2_rx_subsyst_0_0'. These changes may impact your design.
+
+
+-Upgraded port 'csirxss_s_axi_araddr' width 8 differs from original width 7
+
+-Upgraded port 'csirxss_s_axi_awaddr' width 8 differs from original width 7
+
+-Upgraded port 'video_out_tdest' width 10 differs from original width 8
+
+
+4. Upgrade messages
+-------------------
+
+Added parameter C_EN_CSI_V2_0 with value false (source 'default')
+Added parameter C_EN_VCX with value false (source 'default')
+Added parameter C_EN_TIMEOUT_REGS with value false (source 'default')
+Added parameter C_HS_TIMEOUT with value 65541 (source 'default')
+Added parameter C_ESC_TIMEOUT with value 25600 (source 'default')
+Set parameter AXIS_TDEST_WIDTH to value 10 (source 'default')
+Set parameter DATA_LANE3_IO_LOC to value None (source 'default')
+Set parameter DATA_LANE2_IO_LOC to value None (source 'default')
+
+5. Customization warnings
+-------------------------
+
+The normal upgrade process failed due to validation failures in the given configuration. Attempting partial upgrade to set as many user parameters as possible. Please check the parameters whose values were not applied.
+
+Unable to set the value '4' on parameter 'Allowed VC' due to the following failure - 
+Value '4' is out of the range for parameter 'Allowed VC(CMN_VC)' for BD Cell 'design_1_mipi_csi2_rx_subsyst_0_0' . Valid values are - All, 0, 1, 2, 3
+. Restoring to an old valid value of 'All'
+
+An attempt to modify the value of disabled parameter 'AXIS_TDEST_WIDTH' from '4' to '10' has been ignored for IP 'design_1_mipi_csi2_rx_subsyst_0_0'
+
+
+6. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:ip:mipi_csi2_rx_subsystem:4.0 -user_name design_1_mipi_csi2_rx_subsyst_0_0
+set_property -dict "\
+  CONFIG.AXIS_TDATA_WIDTH {32} \
+  CONFIG.AXIS_TDEST_WIDTH {10} \
+  CONFIG.AXIS_TUSER_WIDTH {96} \
+  CONFIG.CLK_LANE_IO_LOC {N2} \
+  CONFIG.CLK_LANE_IO_LOC_NAME {IO_L7P_T1L_N0_QBC_AD13P_65} \
+  CONFIG.CMN_FIFO_RD_EN_CNTRL {true} \
+  CONFIG.CMN_INC_IIC {false} \
+  CONFIG.CMN_INC_VFB {true} \
+  CONFIG.CMN_NUM_LANES {2} \
+  CONFIG.CMN_NUM_PIXELS {4} \
+  CONFIG.CMN_PROJ_FAMILY {1} \
+  CONFIG.CMN_PXL_FORMAT {RAW10} \
+  CONFIG.CMN_VC {4} \
+  CONFIG.CSI_BUF_DEPTH {2048} \
+  CONFIG.CSI_EMB_NON_IMG {false} \
+  CONFIG.C_CAL_MODE {NONE} \
+  CONFIG.C_CLK_IO_SWAP {false} \
+  CONFIG.C_CLK_LANE_IO_POSITION {13} \
+  CONFIG.C_CLK_LP_IO_SWAP {false} \
+  CONFIG.C_CSI2RX_DBG {0} \
+  CONFIG.C_CSI_EN_ACTIVELANES {false} \
+  CONFIG.C_CSI_EN_CRC {true} \
+  CONFIG.C_CSI_FILTER_USERDATATYPE {false} \
+  CONFIG.C_CSI_OPT1_REGS {false} \
+  CONFIG.C_DATA_LANE0_IO_POSITION {15} \
+  CONFIG.C_DATA_LANE1_IO_POSITION {17} \
+  CONFIG.C_DATA_LANE2_IO_POSITION {51} \
+  CONFIG.C_DATA_LANE3_IO_POSITION {51} \
+  CONFIG.C_DL0_IO_SWAP {false} \
+  CONFIG.C_DL0_LP_IO_SWAP {false} \
+  CONFIG.C_DL1_IO_SWAP {false} \
+  CONFIG.C_DL1_LP_IO_SWAP {false} \
+  CONFIG.C_DL2_IO_SWAP {false} \
+  CONFIG.C_DL2_LP_IO_SWAP {false} \
+  CONFIG.C_DL3_IO_SWAP {false} \
+  CONFIG.C_DL3_LP_IO_SWAP {false} \
+  CONFIG.C_DPHY_LANES {2} \
+  CONFIG.C_DPHY_MODE {SLAVE} \
+  CONFIG.C_EN_BG0_PIN0 {false} \
+  CONFIG.C_EN_BG0_PIN6 {false} \
+  CONFIG.C_EN_BG1_PIN0 {false} \
+  CONFIG.C_EN_BG1_PIN6 {false} \
+  CONFIG.C_EN_BG2_PIN0 {false} \
+  CONFIG.C_EN_BG2_PIN6 {false} \
+  CONFIG.C_EN_BG3_PIN0 {false} \
+  CONFIG.C_EN_BG3_PIN6 {false} \
+  CONFIG.C_EN_CLK300M {false} \
+  CONFIG.C_EN_CSI_V2_0 {false} \
+  CONFIG.C_EN_TIMEOUT_REGS {false} \
+  CONFIG.C_EN_VCX {false} \
+  CONFIG.C_ESC_TIMEOUT {25600} \
+  CONFIG.C_EXDES_BOARD {ZCU102} \
+  CONFIG.C_EXDES_CONFIG {MIPI_Video_Pipe_Camera_to_Display} \
+  CONFIG.C_EXDES_FMC {LI-IMX274MIPI-FMC V1.0 Single Sensor} \
+  CONFIG.C_FIFO_RD_EN_CONTROL {true} \
+  CONFIG.C_HS_LINE_RATE {1000} \
+  CONFIG.C_HS_SETTLE_NS {145} \
+  CONFIG.C_HS_TIMEOUT {65541} \
+  CONFIG.C_IDLY_GROUP_NAME {mipi_csi2rx_idly_group} \
+  CONFIG.C_IDLY_TAP {1} \
+  CONFIG.C_INIT {100000} \
+  CONFIG.C_IS_7SERIES {false} \
+  CONFIG.C_MIPI_SLV_INT {0} \
+  CONFIG.C_SHARE_IDLYCTRL {false} \
+  CONFIG.Component_Name {design_1_mipi_csi2_rx_subsyst_0_0} \
+  CONFIG.DATA_LANE0_BYTE {All_Byte} \
+  CONFIG.DATA_LANE0_IO_LOC {N5} \
+  CONFIG.DATA_LANE0_IO_LOC_NAME {IO_L8P_T1L_N2_AD5P_65} \
+  CONFIG.DATA_LANE1_BYTE {All_Byte} \
+  CONFIG.DATA_LANE1_IO_LOC {M2} \
+  CONFIG.DATA_LANE1_IO_LOC_NAME {IO_L9P_T1L_N4_AD12P_65} \
+  CONFIG.DATA_LANE2_BYTE {All_Byte} \
+  CONFIG.DATA_LANE2_IO_LOC {None} \
+  CONFIG.DATA_LANE2_IO_LOC_NAME {IO_L10P_T1U_N6_QBC_AD4P_65} \
+  CONFIG.DATA_LANE3_BYTE {All_Byte} \
+  CONFIG.DATA_LANE3_IO_LOC {None} \
+  CONFIG.DATA_LANE3_IO_LOC_NAME {IO_L11P_T1U_N8_GC_65} \
+  CONFIG.DPHYRX_BOARD_INTERFACE {Custom} \
+  CONFIG.DPHY_PRESET {CSI2RX_XLNX} \
+  CONFIG.DPY_EN_REG_IF {false} \
+  CONFIG.DPY_LINE_RATE {1000} \
+  CONFIG.HP_IO_BANK_SELECTION {65} \
+  CONFIG.SupportLevel {1} \
+  CONFIG.USE_BOARD_FLOW {false} \
+  CONFIG.VFB_TU_WIDTH {1} " [get_ips design_1_mipi_csi2_rx_subsyst_0_0]
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Apr 30 10:56:07 2020
+| Host         : zw-pc running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xczu3eg-sbva484-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_clk_wiz_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_clk_wiz_0_0 (xilinx.com:ip:clk_wiz:6.0) from (Rev. 1) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Apr 30 10:56:06 2020
+| Host         : zw-pc running 64-bit Ubuntu 16.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xczu3eg-sbva484-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_vdma_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_axi_vdma_0_0 (xilinx.com:ip:axi_vdma:6.3) from (Rev. 5) to (Rev. 7)
+

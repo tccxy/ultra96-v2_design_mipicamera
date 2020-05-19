@@ -1,0 +1,4 @@
+kernel/drivers/gpio/gpio-pca953x.ko
+kernel/drivers/gpio/gpio-tps65086.ko
+kernel/drivers/gpio/gpio-xilinx.ko
+kernel/drivers/gpio/gpio-zynq.ko

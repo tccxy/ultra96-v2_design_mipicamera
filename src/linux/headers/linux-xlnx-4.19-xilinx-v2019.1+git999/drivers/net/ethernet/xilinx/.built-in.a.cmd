@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/xilinx/built-in.a := rm -f drivers/net/ethernet/xilinx/built-in.a; aarch64-xilinx-linux-ar rcSTPD drivers/net/ethernet/xilinx/built-in.a drivers/net/ethernet/xilinx/xilinx_emaclite.o drivers/net/ethernet/xilinx/xilinx_axienet_main.o drivers/net/ethernet/xilinx/xilinx_axienet_mdio.o drivers/net/ethernet/xilinx/xilinx_axienet_dma.o

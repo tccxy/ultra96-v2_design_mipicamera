@@ -1,0 +1,6 @@
+kernel/drivers/hwmon/hwmon.ko
+kernel/drivers/hwmon/iio_hwmon.ko
+kernel/drivers/hwmon/ina2xx.ko
+kernel/drivers/hwmon/pmbus/pmbus_core.ko
+kernel/drivers/hwmon/pmbus/pmbus.ko
+kernel/drivers/hwmon/pmbus/max20751.ko

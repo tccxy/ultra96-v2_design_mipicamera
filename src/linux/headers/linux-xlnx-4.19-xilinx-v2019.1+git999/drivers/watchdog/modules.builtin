@@ -1,0 +1,2 @@
+kernel/drivers/watchdog/cadence_wdt.ko
+kernel/drivers/watchdog/of_xilinx_wdt.ko

@@ -1,0 +1,1 @@
+cmd_drivers/staging/clocking-wizard/built-in.a := rm -f drivers/staging/clocking-wizard/built-in.a; aarch64-xilinx-linux-ar rcSTPD drivers/staging/clocking-wizard/built-in.a drivers/staging/clocking-wizard/clk-xlnx-clock-wizard.o

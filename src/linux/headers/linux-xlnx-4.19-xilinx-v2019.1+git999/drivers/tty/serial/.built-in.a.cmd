@@ -1,0 +1,1 @@
+cmd_drivers/tty/serial/built-in.a := rm -f drivers/tty/serial/built-in.a; aarch64-xilinx-linux-ar rcSTPD drivers/tty/serial/built-in.a drivers/tty/serial/serial_core.o drivers/tty/serial/earlycon.o drivers/tty/serial/8250/built-in.a drivers/tty/serial/max310x.o drivers/tty/serial/uartlite.o drivers/tty/serial/xilinx_uartps.o

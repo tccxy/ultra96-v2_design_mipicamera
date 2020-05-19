@@ -1,0 +1,6 @@
+11:07:55 INFO  : Registering command handlers for SDK TCF services
+11:07:56 INFO  : Launching XSCT server: xsct -n -interactive /home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.sdk/temp_xsdb_launch_script.tcl
+11:08:00 INFO  : XSCT server has started successfully.
+11:08:00 INFO  : Successfully done setting XSCT server connection channel  
+11:08:05 INFO  : Successfully done setting SDK workspace  
+11:08:05 INFO  : Processing command line option -hwspec /home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.sdk/design_1_wrapper.hdf.

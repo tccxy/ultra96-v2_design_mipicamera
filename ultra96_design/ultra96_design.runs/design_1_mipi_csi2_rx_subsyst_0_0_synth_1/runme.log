@@ -1,0 +1,314 @@
+
+*** Running vivado
+    with args -log design_1_mipi_csi2_rx_subsyst_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_mipi_csi2_rx_subsyst_0_0.tcl
+
+
+****** Vivado v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source design_1_mipi_csi2_rx_subsyst_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/zw/share/ultra96/ultra96_design/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/zw/software/vivado_2019/Vivado/2019.1/data/ip'.
+Command: synth_design -top design_1_mipi_csi2_rx_subsyst_0_0 -part xczu3eg-sbva484-1-e -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu3eg'
+INFO: [Device 21-403] Loading part xczu3eg-sbva484-1-e
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 6008 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2292.008 ; gain = 0.000 ; free physical = 10330 ; free virtual = 17837
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_mipi_csi2_rx_subsyst_0_0' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/synth/design_1_mipi_csi2_rx_subsyst_0_0.v:61]
+INFO: [Synth 8-6157] synthesizing module 'bd_d10d' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/synth/bd_d10d.v:10]
+INFO: [Synth 8-6157] synthesizing module 'bd_d10d_phy_0' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.runs/design_1_mipi_csi2_rx_subsyst_0_0_synth_1/.Xil/Vivado-5312-zw-pc/realtime/bd_d10d_phy_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'bd_d10d_phy_0' (1#1) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.runs/design_1_mipi_csi2_rx_subsyst_0_0_synth_1/.Xil/Vivado-5312-zw-pc/realtime/bd_d10d_phy_0_stub.v:5]
+WARNING: [Synth 8-7023] instance 'phy' of module 'bd_d10d_phy_0' has 54 connections declared, but only 37 given [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/synth/bd_d10d.v:200]
+INFO: [Synth 8-6157] synthesizing module 'bd_d10d_r_sync_0' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.runs/design_1_mipi_csi2_rx_subsyst_0_0_synth_1/.Xil/Vivado-5312-zw-pc/realtime/bd_d10d_r_sync_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bd_d10d_r_sync_0' (2#1) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.runs/design_1_mipi_csi2_rx_subsyst_0_0_synth_1/.Xil/Vivado-5312-zw-pc/realtime/bd_d10d_r_sync_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'r_sync' of module 'bd_d10d_r_sync_0' has 10 connections declared, but only 6 given [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/synth/bd_d10d.v:238]
+INFO: [Synth 8-6157] synthesizing module 'bd_d10d_rx_0' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.runs/design_1_mipi_csi2_rx_subsyst_0_0_synth_1/.Xil/Vivado-5312-zw-pc/realtime/bd_d10d_rx_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bd_d10d_rx_0' (3#1) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.runs/design_1_mipi_csi2_rx_subsyst_0_0_synth_1/.Xil/Vivado-5312-zw-pc/realtime/bd_d10d_rx_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'bd_d10d_vfb_0_0' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.runs/design_1_mipi_csi2_rx_subsyst_0_0_synth_1/.Xil/Vivado-5312-zw-pc/realtime/bd_d10d_vfb_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'bd_d10d_vfb_0_0' (4#1) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.runs/design_1_mipi_csi2_rx_subsyst_0_0_synth_1/.Xil/Vivado-5312-zw-pc/realtime/bd_d10d_vfb_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'bd_d10d' (5#1) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/synth/bd_d10d.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_mipi_csi2_rx_subsyst_0_0' (6#1) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/synth/design_1_mipi_csi2_rx_subsyst_0_0.v:61]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2292.008 ; gain = 0.000 ; free physical = 10354 ; free virtual = 17863
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2292.008 ; gain = 0.000 ; free physical = 10354 ; free virtual = 17864
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2292.008 ; gain = 0.000 ; free physical = 10354 ; free virtual = 17864
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_d10d_r_sync_0/bd_d10d_r_sync_0_in_context.xdc] for cell 'inst/r_sync'
+Finished Parsing XDC File [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_d10d_r_sync_0/bd_d10d_r_sync_0_in_context.xdc] for cell 'inst/r_sync'
+Parsing XDC File [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_1/bd_d10d_rx_0/bd_d10d_rx_0_in_context.xdc] for cell 'inst/rx'
+Finished Parsing XDC File [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_1/bd_d10d_rx_0/bd_d10d_rx_0_in_context.xdc] for cell 'inst/rx'
+Parsing XDC File [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_2/bd_d10d_phy_0/bd_d10d_phy_0_in_context.xdc] for cell 'inst/phy'
+Finished Parsing XDC File [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_2/bd_d10d_phy_0/bd_d10d_phy_0_in_context.xdc] for cell 'inst/phy'
+Parsing XDC File [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_vfb_0_0/bd_d10d_vfb_0_0_in_context.xdc] for cell 'inst/vfb_0'
+Finished Parsing XDC File [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_vfb_0_0/bd_d10d_vfb_0_0_in_context.xdc] for cell 'inst/vfb_0'
+Parsing XDC File [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/design_1_mipi_csi2_rx_subsyst_0_0_fixed_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/design_1_mipi_csi2_rx_subsyst_0_0_fixed_ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.runs/design_1_mipi_csi2_rx_subsyst_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.runs/design_1_mipi_csi2_rx_subsyst_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2376.816 ; gain = 0.000 ; free physical = 10289 ; free virtual = 17816
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2376.816 ; gain = 0.000 ; free physical = 10288 ; free virtual = 17815
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 2376.816 ; gain = 84.809 ; free physical = 10344 ; free virtual = 17879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu3eg-sbva484-1-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 2376.816 ; gain = 84.809 ; free physical = 10344 ; free virtual = 17879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for mipi_phy_if_clk_n. (constraint file  /home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_2/bd_d10d_phy_0/bd_d10d_phy_0_in_context.xdc, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for mipi_phy_if_clk_n. (constraint file  /home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_2/bd_d10d_phy_0/bd_d10d_phy_0_in_context.xdc, line 5).
+Applied set_property IO_BUFFER_TYPE = NONE for mipi_phy_if_clk_p. (constraint file  /home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_2/bd_d10d_phy_0/bd_d10d_phy_0_in_context.xdc, line 6).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for mipi_phy_if_clk_p. (constraint file  /home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_2/bd_d10d_phy_0/bd_d10d_phy_0_in_context.xdc, line 7).
+Applied set_property IO_BUFFER_TYPE = NONE for mipi_phy_if_data_n[0]. (constraint file  /home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_2/bd_d10d_phy_0/bd_d10d_phy_0_in_context.xdc, line 8).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for mipi_phy_if_data_n[0]. (constraint file  /home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_2/bd_d10d_phy_0/bd_d10d_phy_0_in_context.xdc, line 9).
+Applied set_property IO_BUFFER_TYPE = NONE for mipi_phy_if_data_n[1]. (constraint file  /home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_2/bd_d10d_phy_0/bd_d10d_phy_0_in_context.xdc, line 10).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for mipi_phy_if_data_n[1]. (constraint file  /home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_2/bd_d10d_phy_0/bd_d10d_phy_0_in_context.xdc, line 11).
+Applied set_property IO_BUFFER_TYPE = NONE for mipi_phy_if_data_p[0]. (constraint file  /home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_2/bd_d10d_phy_0/bd_d10d_phy_0_in_context.xdc, line 12).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for mipi_phy_if_data_p[0]. (constraint file  /home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_2/bd_d10d_phy_0/bd_d10d_phy_0_in_context.xdc, line 13).
+Applied set_property IO_BUFFER_TYPE = NONE for mipi_phy_if_data_p[1]. (constraint file  /home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_2/bd_d10d_phy_0/bd_d10d_phy_0_in_context.xdc, line 14).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for mipi_phy_if_data_p[1]. (constraint file  /home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_2/bd_d10d_phy_0/bd_d10d_phy_0_in_context.xdc, line 15).
+Applied set_property DONT_TOUCH = true for inst. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/r_sync. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/rx. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/phy. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/vfb_0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 2376.816 ; gain = 84.809 ; free physical = 10344 ; free virtual = 17879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 2376.816 ; gain = 84.809 ; free physical = 10345 ; free virtual = 17881
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 360 (col length:72)
+BRAMs: 432 (col length: RAMB18 72 RAMB36 36)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2376.816 ; gain = 84.809 ; free physical = 10334 ; free virtual = 17872
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'inst/phy/clkoutphy_out' to pin 'inst/phy/bbstub_clkoutphy_out/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'inst/phy/rxbyteclkhs' to pin 'inst/phy/bbstub_rxbyteclkhs/O'
+INFO: [Synth 8-5819] Moved 2 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:42 . Memory (MB): peak = 2825.230 ; gain = 533.223 ; free physical = 9637 ; free virtual = 17213
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:42 . Memory (MB): peak = 2825.230 ; gain = 533.223 ; free physical = 9638 ; free virtual = 17213
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:43 . Memory (MB): peak = 2835.246 ; gain = 543.238 ; free physical = 9636 ; free virtual = 17211
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:43 . Memory (MB): peak = 2849.121 ; gain = 557.113 ; free physical = 9637 ; free virtual = 17213
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:43 . Memory (MB): peak = 2849.121 ; gain = 557.113 ; free physical = 9637 ; free virtual = 17213
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:43 . Memory (MB): peak = 2849.121 ; gain = 557.113 ; free physical = 9637 ; free virtual = 17213
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:43 . Memory (MB): peak = 2849.121 ; gain = 557.113 ; free physical = 9637 ; free virtual = 17213
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:43 . Memory (MB): peak = 2849.121 ; gain = 557.113 ; free physical = 9637 ; free virtual = 17213
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:43 . Memory (MB): peak = 2849.121 ; gain = 557.113 ; free physical = 9637 ; free virtual = 17213
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-----------------+----------+
+|      |BlackBox name    |Instances |
++------+-----------------+----------+
+|1     |bd_d10d_phy_0    |         1|
+|2     |bd_d10d_r_sync_0 |         1|
+|3     |bd_d10d_rx_0     |         1|
+|4     |bd_d10d_vfb_0_0  |         1|
++------+-----------------+----------+
+
+Report Cell Usage: 
++------+-----------------+------+
+|      |Cell             |Count |
++------+-----------------+------+
+|1     |bd_d10d_phy_0    |     1|
+|2     |bd_d10d_r_sync_0 |     1|
+|3     |bd_d10d_rx_0     |     1|
+|4     |bd_d10d_vfb_0_0  |     1|
++------+-----------------+------+
+
+Report Instance Areas: 
++------+---------+--------+------+
+|      |Instance |Module  |Cells |
++------+---------+--------+------+
+|1     |top      |        |   361|
+|2     |  inst   |bd_d10d |   361|
++------+---------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:43 . Memory (MB): peak = 2849.121 ; gain = 557.113 ; free physical = 9637 ; free virtual = 17213
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:37 . Memory (MB): peak = 2849.121 ; gain = 472.305 ; free physical = 9678 ; free virtual = 17253
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:43 . Memory (MB): peak = 2849.129 ; gain = 557.113 ; free physical = 9678 ; free virtual = 17253
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2876.871 ; gain = 0.000 ; free physical = 9624 ; free virtual = 17200
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+28 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:56 . Memory (MB): peak = 2888.840 ; gain = 1433.824 ; free physical = 9714 ; free virtual = 17289
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2888.840 ; gain = 0.000 ; free physical = 9714 ; free virtual = 17289
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.runs/design_1_mipi_csi2_rx_subsyst_0_0_synth_1/design_1_mipi_csi2_rx_subsyst_0_0.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_mipi_csi2_rx_subsyst_0_0, cache-ID = 5b16531dfaa53bb6
+INFO: [Coretcl 2-1174] Renamed 5 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2888.840 ; gain = 0.000 ; free physical = 9711 ; free virtual = 17287
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.runs/design_1_mipi_csi2_rx_subsyst_0_0_synth_1/design_1_mipi_csi2_rx_subsyst_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_mipi_csi2_rx_subsyst_0_0_utilization_synth.rpt -pb design_1_mipi_csi2_rx_subsyst_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 30 11:03:02 2020...

@@ -1,0 +1,1 @@
+cmd_drivers/soc/built-in.a := rm -f drivers/soc/built-in.a; aarch64-xilinx-linux-ar rcSTPD drivers/soc/built-in.a drivers/soc/bcm/built-in.a drivers/soc/fsl/built-in.a drivers/soc/mediatek/built-in.a drivers/soc/qcom/built-in.a drivers/soc/renesas/built-in.a drivers/soc/xilinx/built-in.a

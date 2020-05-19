@@ -1,0 +1,17 @@
+!<thin>
+//                                              124       `
+dmaengine.o/
+of-dma.o/
+dmatest.o/
+xilinx/xilinx_dpdma.o/
+xilinx/xilinx_dma.o/
+xilinx/zynqmp_dma.o/
+xilinx/xilinx_frmbuf.o/
+
+/0              0           0     0     644     337048    `
+/13             0           0     0     644     193368    `
+/23             0           0     0     644     348424    `
+/34             0           0     0     644     409032    `
+/57             0           0     0     644     574704    `
+/78             0           0     0     644     374872    `
+/99            /0           0     0     644     362296    `

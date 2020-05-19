@@ -1,0 +1,2 @@
+kernel/drivers/usb/storage/uas.ko
+kernel/drivers/usb/storage/usb-storage.ko

@@ -1,0 +1,18 @@
+!<thin>
+//                                              140       `
+xilinx-dp-pcm.o/
+xilinx-dp-codec.o/
+xilinx-dp-card.o/
+xlnx_formatter_pcm.o/
+xlnx_sdi_audio.o/
+xlnx_i2s.o/
+xlnx_spdif.o/
+xlnx_pl_snd_card.o/
+/0             /0           0     0     644     236920    `
+/17             0           0     0     644     233984    `
+/36             0           0     0     644     226936    `
+/54             0           0     0     644     307512    `
+/76             0           0     0     644     276192    `
+/94             0           0     0     644     247616    `
+/106            0           0     0     644     261888    `
+/120            0           0     0     644     251008    `

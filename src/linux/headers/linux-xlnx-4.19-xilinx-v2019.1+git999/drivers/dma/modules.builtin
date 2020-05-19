@@ -1,0 +1,5 @@
+kernel/drivers/dma/dmatest.ko
+kernel/drivers/dma/xilinx/xilinx_dpdma.ko
+kernel/drivers/dma/xilinx/xilinx_dma.ko
+kernel/drivers/dma/xilinx/zynqmp_dma.ko
+kernel/drivers/dma/xilinx/xilinx_frmbuf.ko

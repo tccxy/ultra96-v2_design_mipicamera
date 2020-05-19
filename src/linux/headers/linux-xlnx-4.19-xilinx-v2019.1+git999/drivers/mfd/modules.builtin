@@ -1,0 +1,2 @@
+kernel/drivers/mfd/tps65086.ko
+kernel/drivers/mfd/mfd-core.ko

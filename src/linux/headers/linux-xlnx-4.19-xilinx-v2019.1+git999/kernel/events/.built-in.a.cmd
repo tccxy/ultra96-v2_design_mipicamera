@@ -1,0 +1,1 @@
+cmd_kernel/events/built-in.a := rm -f kernel/events/built-in.a; aarch64-xilinx-linux-ar rcSTPD kernel/events/built-in.a kernel/events/core.o kernel/events/ring_buffer.o kernel/events/callchain.o kernel/events/hw_breakpoint.o

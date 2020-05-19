@@ -1,0 +1,2 @@
+kernel/drivers/misc/jesd204b/jesd204b_phy.ko
+kernel/drivers/misc/jesd204b/jesd204b.ko

@@ -1,0 +1,6 @@
+kernel/drivers/fpga/fpga-mgr.ko
+kernel/drivers/fpga/zynqmp-fpga.ko
+kernel/drivers/fpga/fpga-bridge.ko
+kernel/drivers/fpga/xilinx-pr-decoupler.ko
+kernel/drivers/fpga/fpga-region.ko
+kernel/drivers/fpga/of-fpga-region.ko

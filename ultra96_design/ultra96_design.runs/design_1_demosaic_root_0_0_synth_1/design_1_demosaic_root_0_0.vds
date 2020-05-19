@@ -1,0 +1,1084 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Apr 30 10:57:04 2020
+# Process ID: 30666
+# Current directory: /home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.runs/design_1_demosaic_root_0_0_synth_1
+# Command line: vivado -log design_1_demosaic_root_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_demosaic_root_0_0.tcl
+# Log file: /home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.runs/design_1_demosaic_root_0_0_synth_1/design_1_demosaic_root_0_0.vds
+# Journal file: /home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.runs/design_1_demosaic_root_0_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_demosaic_root_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/zw/share/ultra96/ultra96_design/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/zw/software/vivado_2019/Vivado/2019.1/data/ip'.
+Command: synth_design -top design_1_demosaic_root_0_0 -part xczu3eg-sbva484-1-e -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu3eg'
+INFO: [Device 21-403] Loading part xczu3eg-sbva484-1-e
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 31136 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2251.422 ; gain = 0.000 ; free physical = 6002 ; free virtual = 13202
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_demosaic_root_0_0' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_demosaic_root_0_0/synth/design_1_demosaic_root_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'demosaic_root' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/demosaic_root.v:12]
+	Parameter C_S_AXI_BUS_AXI4LS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_BUS_AXI4LS_ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_BUS_AXI4LS_WSTRB_WIDTH bound to: 4 - type: integer 
+	Parameter C_S_AXI_WSTRB_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'demosaic_root_BUS_AXI4LS_s_axi' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/demosaic_root_BUS_AXI4LS_s_axi.v:9]
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter ADDR_AP_CTRL bound to: 5'b00000 
+	Parameter ADDR_GIE bound to: 5'b00100 
+	Parameter ADDR_IER bound to: 5'b01000 
+	Parameter ADDR_ISR bound to: 5'b01100 
+	Parameter ADDR_AP_RETURN_0 bound to: 5'b10000 
+	Parameter WRIDLE bound to: 2'b00 
+	Parameter WRDATA bound to: 2'b01 
+	Parameter WRRESP bound to: 2'b10 
+	Parameter WRRESET bound to: 2'b11 
+	Parameter RDIDLE bound to: 2'b00 
+	Parameter RDDATA bound to: 2'b01 
+	Parameter RDRESET bound to: 2'b10 
+	Parameter ADDR_BITS bound to: 5 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/demosaic_root_BUS_AXI4LS_s_axi.v:194]
+INFO: [Synth 8-6155] done synthesizing module 'demosaic_root_BUS_AXI4LS_s_axi' (1#1) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/demosaic_root_BUS_AXI4LS_s_axi.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Loop_1_proc66' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/Loop_1_proc66.v:10]
+	Parameter ap_ST_fsm_state1 bound to: 3'b001 
+	Parameter ap_ST_fsm_pp0_stage0 bound to: 3'b010 
+	Parameter ap_ST_fsm_state4 bound to: 3'b100 
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/Loop_1_proc66.v:76]
+INFO: [Synth 8-6155] done synthesizing module 'Loop_1_proc66' (2#1) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/Loop_1_proc66.v:10]
+INFO: [Synth 8-6157] synthesizing module 'odata' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:10]
+	Parameter ap_ST_fsm_state1 bound to: 5'b00001 
+	Parameter ap_ST_fsm_pp0_stage0 bound to: 5'b00010 
+	Parameter ap_ST_fsm_state4 bound to: 5'b00100 
+	Parameter ap_ST_fsm_pp1_stage0 bound to: 5'b01000 
+	Parameter ap_ST_fsm_state12 bound to: 5'b10000 
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:61]
+INFO: [Synth 8-6157] synthesizing module 'odata_p_idata_bufbkb' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata_p_idata_bufbkb.v:54]
+	Parameter DataWidth bound to: 40 - type: integer 
+	Parameter AddressRange bound to: 256 - type: integer 
+	Parameter AddressWidth bound to: 8 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'odata_p_idata_bufbkb_ram' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata_p_idata_bufbkb.v:9]
+	Parameter DWIDTH bound to: 40 - type: integer 
+	Parameter AWIDTH bound to: 8 - type: integer 
+	Parameter MEM_SIZE bound to: 256 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* ram_style = "block" *) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata_p_idata_bufbkb.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'odata_p_idata_bufbkb_ram' (3#1) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata_p_idata_bufbkb.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'odata_p_idata_bufbkb' (4#1) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata_p_idata_bufbkb.v:54]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1404]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1414]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1420]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1430]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1434]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1448]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1454]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1462]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1470]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1498]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1508]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1518]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1524]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1546]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1548]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1550]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1552]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1554]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1556]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1640]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1642]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1644]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1684]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1686]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1688]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1726]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1730]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1732]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1768]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1770]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1772]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1812]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1814]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1816]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1834]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1876]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1880]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1882]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1884]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1890]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1892]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1894]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1932]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1934]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1938]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1978]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1980]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1982]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:2020]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:2022]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:2024]
+INFO: [Synth 8-6155] done synthesizing module 'odata' (5#1) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:10]
+INFO: [Synth 8-6157] synthesizing module 'olast' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/olast.v:10]
+	Parameter ap_ST_fsm_state1 bound to: 3'b001 
+	Parameter ap_ST_fsm_pp0_stage0 bound to: 3'b010 
+	Parameter ap_ST_fsm_state4 bound to: 3'b100 
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/olast.v:51]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/olast.v:301]
+INFO: [Synth 8-6155] done synthesizing module 'olast' (6#1) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/olast.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ouser' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/ouser.v:10]
+	Parameter ap_ST_fsm_state1 bound to: 3'b001 
+	Parameter ap_ST_fsm_pp0_stage0 bound to: 3'b010 
+	Parameter ap_ST_fsm_state4 bound to: 3'b100 
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/ouser.v:51]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/ouser.v:326]
+INFO: [Synth 8-6155] done synthesizing module 'ouser' (7#1) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/ouser.v:10]
+INFO: [Synth 8-6157] synthesizing module 'Loop_2_proc67' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/Loop_2_proc67.v:10]
+	Parameter ap_ST_fsm_state1 bound to: 3'b001 
+	Parameter ap_ST_fsm_pp0_stage0 bound to: 3'b010 
+	Parameter ap_ST_fsm_state5 bound to: 3'b100 
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/Loop_2_proc67.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'Loop_2_proc67' (8#1) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/Loop_2_proc67.v:10]
+INFO: [Synth 8-6157] synthesizing module 'fifo_w40_d16_A' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/fifo_w40_d16_A.v:45]
+	Parameter MEM_STYLE bound to: shiftreg - type: string 
+	Parameter DATA_WIDTH bound to: 40 - type: integer 
+	Parameter ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter DEPTH bound to: 5'b10000 
+INFO: [Synth 8-6157] synthesizing module 'fifo_w40_d16_A_shiftReg' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/fifo_w40_d16_A.v:11]
+	Parameter DATA_WIDTH bound to: 40 - type: integer 
+	Parameter ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter DEPTH bound to: 5'b10000 
+INFO: [Synth 8-6155] done synthesizing module 'fifo_w40_d16_A_shiftReg' (9#1) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/fifo_w40_d16_A.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_w40_d16_A' (10#1) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/fifo_w40_d16_A.v:45]
+INFO: [Synth 8-6157] synthesizing module 'fifo_w1_d320_A' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/fifo_w1_d320_A.v:45]
+	Parameter MEM_STYLE bound to: shiftreg - type: string 
+	Parameter DATA_WIDTH bound to: 1 - type: integer 
+	Parameter ADDR_WIDTH bound to: 9 - type: integer 
+	Parameter DEPTH bound to: 10'b0101000000 
+INFO: [Synth 8-6157] synthesizing module 'fifo_w1_d320_A_shiftReg' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/fifo_w1_d320_A.v:11]
+	Parameter DATA_WIDTH bound to: 1 - type: integer 
+	Parameter ADDR_WIDTH bound to: 9 - type: integer 
+	Parameter DEPTH bound to: 10'b0101000000 
+INFO: [Synth 8-6155] done synthesizing module 'fifo_w1_d320_A_shiftReg' (11#1) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/fifo_w1_d320_A.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_w1_d320_A' (12#1) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/fifo_w1_d320_A.v:45]
+INFO: [Synth 8-6157] synthesizing module 'fifo_w24_d16_A' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/fifo_w24_d16_A.v:45]
+	Parameter MEM_STYLE bound to: shiftreg - type: string 
+	Parameter DATA_WIDTH bound to: 24 - type: integer 
+	Parameter ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter DEPTH bound to: 5'b10000 
+INFO: [Synth 8-6157] synthesizing module 'fifo_w24_d16_A_shiftReg' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/fifo_w24_d16_A.v:11]
+	Parameter DATA_WIDTH bound to: 24 - type: integer 
+	Parameter ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter DEPTH bound to: 5'b10000 
+INFO: [Synth 8-6155] done synthesizing module 'fifo_w24_d16_A_shiftReg' (13#1) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/fifo_w24_d16_A.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_w24_d16_A' (14#1) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/fifo_w24_d16_A.v:45]
+INFO: [Synth 8-6157] synthesizing module 'fifo_w1_d16_A' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/fifo_w1_d16_A.v:45]
+	Parameter MEM_STYLE bound to: shiftreg - type: string 
+	Parameter DATA_WIDTH bound to: 1 - type: integer 
+	Parameter ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter DEPTH bound to: 5'b10000 
+INFO: [Synth 8-6157] synthesizing module 'fifo_w1_d16_A_shiftReg' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/fifo_w1_d16_A.v:11]
+	Parameter DATA_WIDTH bound to: 1 - type: integer 
+	Parameter ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter DEPTH bound to: 5'b10000 
+INFO: [Synth 8-6155] done synthesizing module 'fifo_w1_d16_A_shiftReg' (15#1) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/fifo_w1_d16_A.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_w1_d16_A' (16#1) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/fifo_w1_d16_A.v:45]
+INFO: [Synth 8-6157] synthesizing module 'start_for_odata_U0' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/start_for_odata_U0.v:45]
+	Parameter MEM_STYLE bound to: shiftreg - type: string 
+	Parameter DATA_WIDTH bound to: 1 - type: integer 
+	Parameter ADDR_WIDTH bound to: 1 - type: integer 
+	Parameter DEPTH bound to: 2'b10 
+INFO: [Synth 8-6157] synthesizing module 'start_for_odata_U0_shiftReg' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/start_for_odata_U0.v:11]
+	Parameter DATA_WIDTH bound to: 1 - type: integer 
+	Parameter ADDR_WIDTH bound to: 1 - type: integer 
+	Parameter DEPTH bound to: 2'b10 
+INFO: [Synth 8-6155] done synthesizing module 'start_for_odata_U0_shiftReg' (17#1) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/start_for_odata_U0.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'start_for_odata_U0' (18#1) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/start_for_odata_U0.v:45]
+INFO: [Synth 8-6157] synthesizing module 'start_for_olast_U0' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/start_for_olast_U0.v:45]
+	Parameter MEM_STYLE bound to: shiftreg - type: string 
+	Parameter DATA_WIDTH bound to: 1 - type: integer 
+	Parameter ADDR_WIDTH bound to: 1 - type: integer 
+	Parameter DEPTH bound to: 2'b10 
+INFO: [Synth 8-6157] synthesizing module 'start_for_olast_U0_shiftReg' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/start_for_olast_U0.v:11]
+	Parameter DATA_WIDTH bound to: 1 - type: integer 
+	Parameter ADDR_WIDTH bound to: 1 - type: integer 
+	Parameter DEPTH bound to: 2'b10 
+INFO: [Synth 8-6155] done synthesizing module 'start_for_olast_U0_shiftReg' (19#1) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/start_for_olast_U0.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'start_for_olast_U0' (20#1) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/start_for_olast_U0.v:45]
+INFO: [Synth 8-6157] synthesizing module 'start_for_ouser_U0' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/start_for_ouser_U0.v:45]
+	Parameter MEM_STYLE bound to: shiftreg - type: string 
+	Parameter DATA_WIDTH bound to: 1 - type: integer 
+	Parameter ADDR_WIDTH bound to: 1 - type: integer 
+	Parameter DEPTH bound to: 2'b10 
+INFO: [Synth 8-6157] synthesizing module 'start_for_ouser_U0_shiftReg' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/start_for_ouser_U0.v:11]
+	Parameter DATA_WIDTH bound to: 1 - type: integer 
+	Parameter ADDR_WIDTH bound to: 1 - type: integer 
+	Parameter DEPTH bound to: 2'b10 
+INFO: [Synth 8-6155] done synthesizing module 'start_for_ouser_U0_shiftReg' (21#1) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/start_for_ouser_U0.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'start_for_ouser_U0' (22#1) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/start_for_ouser_U0.v:45]
+INFO: [Synth 8-6157] synthesizing module 'start_for_Loop_2_dEe' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/start_for_Loop_2_dEe.v:45]
+	Parameter MEM_STYLE bound to: shiftreg - type: string 
+	Parameter DATA_WIDTH bound to: 1 - type: integer 
+	Parameter ADDR_WIDTH bound to: 1 - type: integer 
+	Parameter DEPTH bound to: 2'b10 
+INFO: [Synth 8-6157] synthesizing module 'start_for_Loop_2_dEe_shiftReg' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/start_for_Loop_2_dEe.v:11]
+	Parameter DATA_WIDTH bound to: 1 - type: integer 
+	Parameter ADDR_WIDTH bound to: 1 - type: integer 
+	Parameter DEPTH bound to: 2'b10 
+INFO: [Synth 8-6155] done synthesizing module 'start_for_Loop_2_dEe_shiftReg' (23#1) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/start_for_Loop_2_dEe.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'start_for_Loop_2_dEe' (24#1) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/start_for_Loop_2_dEe.v:45]
+INFO: [Synth 8-6155] done synthesizing module 'demosaic_root' (25#1) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/demosaic_root.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_demosaic_root_0_0' (26#1) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_demosaic_root_0_0/synth/design_1_demosaic_root_0_0.v:58]
+WARNING: [Synth 8-3331] design ouser has unconnected port p_iuser_V_bv_V_dout[0]
+WARNING: [Synth 8-3331] design olast has unconnected port p_ilast_V_bv_V_dout[0]
+WARNING: [Synth 8-3331] design odata_p_idata_bufbkb has unconnected port reset
+WARNING: [Synth 8-3331] design demosaic_root_BUS_AXI4LS_s_axi has unconnected port WDATA[31]
+WARNING: [Synth 8-3331] design demosaic_root_BUS_AXI4LS_s_axi has unconnected port WDATA[30]
+WARNING: [Synth 8-3331] design demosaic_root_BUS_AXI4LS_s_axi has unconnected port WDATA[29]
+WARNING: [Synth 8-3331] design demosaic_root_BUS_AXI4LS_s_axi has unconnected port WDATA[28]
+WARNING: [Synth 8-3331] design demosaic_root_BUS_AXI4LS_s_axi has unconnected port WDATA[27]
+WARNING: [Synth 8-3331] design demosaic_root_BUS_AXI4LS_s_axi has unconnected port WDATA[26]
+WARNING: [Synth 8-3331] design demosaic_root_BUS_AXI4LS_s_axi has unconnected port WDATA[25]
+WARNING: [Synth 8-3331] design demosaic_root_BUS_AXI4LS_s_axi has unconnected port WDATA[24]
+WARNING: [Synth 8-3331] design demosaic_root_BUS_AXI4LS_s_axi has unconnected port WDATA[23]
+WARNING: [Synth 8-3331] design demosaic_root_BUS_AXI4LS_s_axi has unconnected port WDATA[22]
+WARNING: [Synth 8-3331] design demosaic_root_BUS_AXI4LS_s_axi has unconnected port WDATA[21]
+WARNING: [Synth 8-3331] design demosaic_root_BUS_AXI4LS_s_axi has unconnected port WDATA[20]
+WARNING: [Synth 8-3331] design demosaic_root_BUS_AXI4LS_s_axi has unconnected port WDATA[19]
+WARNING: [Synth 8-3331] design demosaic_root_BUS_AXI4LS_s_axi has unconnected port WDATA[18]
+WARNING: [Synth 8-3331] design demosaic_root_BUS_AXI4LS_s_axi has unconnected port WDATA[17]
+WARNING: [Synth 8-3331] design demosaic_root_BUS_AXI4LS_s_axi has unconnected port WDATA[16]
+WARNING: [Synth 8-3331] design demosaic_root_BUS_AXI4LS_s_axi has unconnected port WDATA[15]
+WARNING: [Synth 8-3331] design demosaic_root_BUS_AXI4LS_s_axi has unconnected port WDATA[14]
+WARNING: [Synth 8-3331] design demosaic_root_BUS_AXI4LS_s_axi has unconnected port WDATA[13]
+WARNING: [Synth 8-3331] design demosaic_root_BUS_AXI4LS_s_axi has unconnected port WDATA[12]
+WARNING: [Synth 8-3331] design demosaic_root_BUS_AXI4LS_s_axi has unconnected port WDATA[11]
+WARNING: [Synth 8-3331] design demosaic_root_BUS_AXI4LS_s_axi has unconnected port WDATA[10]
+WARNING: [Synth 8-3331] design demosaic_root_BUS_AXI4LS_s_axi has unconnected port WDATA[9]
+WARNING: [Synth 8-3331] design demosaic_root_BUS_AXI4LS_s_axi has unconnected port WDATA[8]
+WARNING: [Synth 8-3331] design demosaic_root_BUS_AXI4LS_s_axi has unconnected port WDATA[6]
+WARNING: [Synth 8-3331] design demosaic_root_BUS_AXI4LS_s_axi has unconnected port WDATA[5]
+WARNING: [Synth 8-3331] design demosaic_root_BUS_AXI4LS_s_axi has unconnected port WDATA[4]
+WARNING: [Synth 8-3331] design demosaic_root_BUS_AXI4LS_s_axi has unconnected port WDATA[3]
+WARNING: [Synth 8-3331] design demosaic_root_BUS_AXI4LS_s_axi has unconnected port WDATA[2]
+WARNING: [Synth 8-3331] design demosaic_root_BUS_AXI4LS_s_axi has unconnected port WSTRB[3]
+WARNING: [Synth 8-3331] design demosaic_root_BUS_AXI4LS_s_axi has unconnected port WSTRB[2]
+WARNING: [Synth 8-3331] design demosaic_root_BUS_AXI4LS_s_axi has unconnected port WSTRB[1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2251.422 ; gain = 0.000 ; free physical = 5891 ; free virtual = 13095
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2251.422 ; gain = 0.000 ; free physical = 5855 ; free virtual = 13060
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2251.422 ; gain = 0.000 ; free physical = 5855 ; free virtual = 13060
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_demosaic_root_0_0/constraints/demosaic_root_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_demosaic_root_0_0/constraints/demosaic_root_ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.runs/design_1_demosaic_root_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.runs/design_1_demosaic_root_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2425.105 ; gain = 0.000 ; free physical = 5600 ; free virtual = 12819
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.05 . Memory (MB): peak = 2425.105 ; gain = 0.000 ; free physical = 5593 ; free virtual = 12813
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 2425.105 ; gain = 173.684 ; free physical = 5711 ; free virtual = 12934
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu3eg-sbva484-1-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 2425.105 ; gain = 173.684 ; free physical = 5709 ; free virtual = 12933
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for inst. (constraint file  /home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.runs/design_1_demosaic_root_0_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 2425.105 ; gain = 173.684 ; free physical = 5709 ; free virtual = 12933
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'wstate_reg' in module 'demosaic_root_BUS_AXI4LS_s_axi'
+INFO: [Synth 8-802] inferred FSM for state register 'rstate_reg' in module 'demosaic_root_BUS_AXI4LS_s_axi'
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4471] merging register 'p_idata_window_1_v_2_reg_2477_reg[39:0]' into 'p_idata_window_v0_1_fu_184_reg[39:0]' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:997]
+INFO: [Synth 8-4471] merging register 'p_idata_window_v0_2_fu_180_reg[39:0]' into 'p_idata_window_0_v_2_reg_2472_reg[39:0]' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1002]
+INFO: [Synth 8-4471] merging register 'p_idata_window_2_v_2_reg_2482_reg[39:0]' into 'p_idata_window_v0_s_fu_188_reg[39:0]' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:999]
+INFO: [Synth 8-4471] merging register 'Lo_assign_reg_2681_pp1_iter4_reg_reg[0:0]' into 'Lo_assign_reg_2681_reg[0:0]' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:2000]
+INFO: [Synth 8-4471] merging register 'Hi_assign_reg_2687_pp1_iter4_reg_reg[0:0]' into 'Hi_assign_reg_2687_reg[0:0]' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:2014]
+INFO: [Synth 8-4471] merging register 'Lo_assign_1_reg_2708_reg[0:0]' into 'Lo_assign_reg_2681_reg[0:0]' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1662]
+INFO: [Synth 8-4471] merging register 'Hi_assign_1_reg_2714_reg[0:0]' into 'Hi_assign_reg_2687_reg[0:0]' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1926]
+INFO: [Synth 8-4471] merging register 'Hi_assign_1_reg_2714_pp1_iter4_reg_reg[0:0]' into 'Hi_assign_reg_2687_reg[0:0]' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1678]
+INFO: [Synth 8-4471] merging register 'Lo_assign_2_reg_2735_reg[0:0]' into 'Lo_assign_reg_2681_reg[0:0]' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1958]
+INFO: [Synth 8-4471] merging register 'Lo_assign_2_reg_2735_pp1_iter4_reg_reg[0:0]' into 'Lo_assign_reg_2681_reg[0:0]' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1706]
+INFO: [Synth 8-4471] merging register 'Hi_assign_2_reg_2741_reg[0:0]' into 'Hi_assign_reg_2687_reg[0:0]' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1972]
+INFO: [Synth 8-4471] merging register 'Hi_assign_2_reg_2741_pp1_iter4_reg_reg[0:0]' into 'Hi_assign_reg_2687_reg[0:0]' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1720]
+INFO: [Synth 8-4471] merging register 'tmp_110_reg_2763_reg[0:0]' into 'Lo_assign_reg_2681_reg[0:0]' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:2054]
+INFO: [Synth 8-4471] merging register 'tmp_110_reg_2763_pp1_iter4_reg_reg[0:0]' into 'Lo_assign_reg_2681_reg[0:0]' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1652]
+INFO: [Synth 8-4471] merging register 'tmp_121_reg_2799_reg[0:0]' into 'Hi_assign_reg_2687_reg[0:0]' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1688]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1890]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1768]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1812]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1684]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1726]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:2020]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1640]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1932]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1978]
+WARNING: [Synth 8-3936] Found unconnected internal register 'tmp_113_reg_2768_pp1_iter4_reg_reg' and it is trimmed from '40' to '10' bits. [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:909]
+WARNING: [Synth 8-3936] Found unconnected internal register 'tmp_113_reg_2768_reg' and it is trimmed from '40' to '10' bits. [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/odata.v:1019]
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/fifo_w40_d16_A.v:92]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/fifo_w1_d320_A.v:92]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/fifo_w24_d16_A.v:92]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/cee4/hdl/verilog/fifo_w1_d16_A.v:92]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                             0001 |                               11
+*
+                  WRIDLE |                             0010 |                               00
+                  WRDATA |                             0100 |                               01
+                  WRRESP |                             1000 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'wstate_reg' using encoding 'one-hot' in module 'demosaic_root_BUS_AXI4LS_s_axi'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                              001 |                               10
+*
+                  RDIDLE |                              010 |                               00
+                  RDDATA |                              100 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'rstate_reg' using encoding 'one-hot' in module 'demosaic_root_BUS_AXI4LS_s_axi'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 2425.105 ; gain = 173.684 ; free physical = 5658 ; free virtual = 12882
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   4 Input     20 Bit       Adders := 3     
+	   2 Input     19 Bit       Adders := 3     
+	   3 Input     18 Bit       Adders := 1     
+	   3 Input     12 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 3     
+	   2 Input     10 Bit       Adders := 3     
+	   2 Input      8 Bit       Adders := 6     
+	   2 Input      6 Bit       Adders := 11    
+	   3 Input      6 Bit       Adders := 9     
+	   4 Input      6 Bit       Adders := 3     
+	   2 Input      5 Bit       Adders := 4     
+	   2 Input      3 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 6     
++---XORs : 
+	   2 Input      1 Bit         XORs := 9     
++---Registers : 
+	               40 Bit    Registers := 26    
+	               32 Bit    Registers := 2     
+	               24 Bit    Registers := 2     
+	               11 Bit    Registers := 3     
+	               10 Bit    Registers := 4     
+	                8 Bit    Registers := 9     
+	                5 Bit    Registers := 15    
+	                4 Bit    Registers := 5     
+	                3 Bit    Registers := 4     
+	                2 Bit    Registers := 14    
+	                1 Bit    Registers := 154   
++---RAMs : 
+	              10K Bit         RAMs := 2     
++---Muxes : 
+	   2 Input     40 Bit        Muxes := 27    
+	   2 Input     24 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 8     
+	   2 Input      9 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 14    
+	   2 Input      6 Bit        Muxes := 27    
+	   2 Input      5 Bit        Muxes := 5     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 7     
+	   3 Input      3 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 2     
+	   6 Input      3 Bit        Muxes := 3     
+	   7 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 17    
+	   4 Input      2 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 99    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module demosaic_root_BUS_AXI4LS_s_axi 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	               32 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 3     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module Loop_1_proc66 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               40 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 15    
++---Muxes : 
+	   2 Input     40 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 4     
+	   4 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 12    
+Module odata_p_idata_bufbkb_ram 
+Detailed RTL Component Info : 
++---Registers : 
+	               40 Bit    Registers := 1     
++---RAMs : 
+	              10K Bit         RAMs := 1     
+Module odata 
+Detailed RTL Component Info : 
++---Adders : 
+	   4 Input     20 Bit       Adders := 2     
+	   2 Input     19 Bit       Adders := 1     
+	   3 Input     18 Bit       Adders := 1     
+	   3 Input     12 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 3     
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 6     
+	   2 Input      6 Bit       Adders := 11    
+	   3 Input      6 Bit       Adders := 9     
+	   4 Input      6 Bit       Adders := 3     
+	   2 Input      3 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 4     
++---Registers : 
+	               40 Bit    Registers := 22    
+	               11 Bit    Registers := 3     
+	               10 Bit    Registers := 2     
+	                8 Bit    Registers := 9     
+	                5 Bit    Registers := 10    
+	                4 Bit    Registers := 5     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 75    
++---Muxes : 
+	   2 Input     40 Bit        Muxes := 26    
+	   2 Input     10 Bit        Muxes := 8     
+	   2 Input      8 Bit        Muxes := 14    
+	   2 Input      6 Bit        Muxes := 27    
+	   2 Input      5 Bit        Muxes := 5     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 14    
+Module olast 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     19 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 8     
+Module ouser 
+Detailed RTL Component Info : 
++---Adders : 
+	   4 Input     20 Bit       Adders := 1     
+	   2 Input     19 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 8     
+Module Loop_2_proc67 
+Detailed RTL Component Info : 
++---Registers : 
+	               24 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 16    
++---Muxes : 
+	   2 Input     24 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 10    
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 10    
+Module fifo_w40_d16_A 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+Module fifo_w1_d320_A 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module fifo_w24_d16_A 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+Module fifo_w1_d16_A 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+Module start_for_odata_U0_shiftReg 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module start_for_odata_U0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 4     
+Module start_for_olast_U0_shiftReg 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module start_for_olast_U0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 4     
+Module start_for_ouser_U0_shiftReg 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module start_for_ouser_U0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 4     
+Module start_for_Loop_2_dEe_shiftReg 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module start_for_Loop_2_dEe 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 360 (col length:72)
+BRAMs: 432 (col length: RAMB18 72 RAMB36 36)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design demosaic_root has unconnected port s_axi_BUS_AXI4LS_WDATA[31]
+WARNING: [Synth 8-3331] design demosaic_root has unconnected port s_axi_BUS_AXI4LS_WDATA[30]
+WARNING: [Synth 8-3331] design demosaic_root has unconnected port s_axi_BUS_AXI4LS_WDATA[29]
+WARNING: [Synth 8-3331] design demosaic_root has unconnected port s_axi_BUS_AXI4LS_WDATA[28]
+WARNING: [Synth 8-3331] design demosaic_root has unconnected port s_axi_BUS_AXI4LS_WDATA[27]
+WARNING: [Synth 8-3331] design demosaic_root has unconnected port s_axi_BUS_AXI4LS_WDATA[26]
+WARNING: [Synth 8-3331] design demosaic_root has unconnected port s_axi_BUS_AXI4LS_WDATA[25]
+WARNING: [Synth 8-3331] design demosaic_root has unconnected port s_axi_BUS_AXI4LS_WDATA[24]
+WARNING: [Synth 8-3331] design demosaic_root has unconnected port s_axi_BUS_AXI4LS_WDATA[23]
+WARNING: [Synth 8-3331] design demosaic_root has unconnected port s_axi_BUS_AXI4LS_WDATA[22]
+WARNING: [Synth 8-3331] design demosaic_root has unconnected port s_axi_BUS_AXI4LS_WDATA[21]
+WARNING: [Synth 8-3331] design demosaic_root has unconnected port s_axi_BUS_AXI4LS_WDATA[20]
+WARNING: [Synth 8-3331] design demosaic_root has unconnected port s_axi_BUS_AXI4LS_WDATA[19]
+WARNING: [Synth 8-3331] design demosaic_root has unconnected port s_axi_BUS_AXI4LS_WDATA[18]
+WARNING: [Synth 8-3331] design demosaic_root has unconnected port s_axi_BUS_AXI4LS_WDATA[17]
+WARNING: [Synth 8-3331] design demosaic_root has unconnected port s_axi_BUS_AXI4LS_WDATA[16]
+WARNING: [Synth 8-3331] design demosaic_root has unconnected port s_axi_BUS_AXI4LS_WDATA[15]
+WARNING: [Synth 8-3331] design demosaic_root has unconnected port s_axi_BUS_AXI4LS_WDATA[14]
+WARNING: [Synth 8-3331] design demosaic_root has unconnected port s_axi_BUS_AXI4LS_WDATA[13]
+WARNING: [Synth 8-3331] design demosaic_root has unconnected port s_axi_BUS_AXI4LS_WDATA[12]
+WARNING: [Synth 8-3331] design demosaic_root has unconnected port s_axi_BUS_AXI4LS_WDATA[11]
+WARNING: [Synth 8-3331] design demosaic_root has unconnected port s_axi_BUS_AXI4LS_WDATA[10]
+WARNING: [Synth 8-3331] design demosaic_root has unconnected port s_axi_BUS_AXI4LS_WDATA[9]
+WARNING: [Synth 8-3331] design demosaic_root has unconnected port s_axi_BUS_AXI4LS_WDATA[8]
+WARNING: [Synth 8-3331] design demosaic_root has unconnected port s_axi_BUS_AXI4LS_WDATA[6]
+WARNING: [Synth 8-3331] design demosaic_root has unconnected port s_axi_BUS_AXI4LS_WDATA[5]
+WARNING: [Synth 8-3331] design demosaic_root has unconnected port s_axi_BUS_AXI4LS_WDATA[4]
+WARNING: [Synth 8-3331] design demosaic_root has unconnected port s_axi_BUS_AXI4LS_WDATA[3]
+WARNING: [Synth 8-3331] design demosaic_root has unconnected port s_axi_BUS_AXI4LS_WDATA[2]
+WARNING: [Synth 8-3331] design demosaic_root has unconnected port s_axi_BUS_AXI4LS_WSTRB[3]
+WARNING: [Synth 8-3331] design demosaic_root has unconnected port s_axi_BUS_AXI4LS_WSTRB[2]
+WARNING: [Synth 8-3331] design demosaic_root has unconnected port s_axi_BUS_AXI4LS_WSTRB[1]
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/p_14_reg_2595_reg[0]' (FDE) to 'inst/odata_U0/p_53_reg_2587_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/p_14_reg_2595_pp1_iter1_reg_reg[0]' (FDE) to 'inst/odata_U0/p_53_reg_2587_pp1_iter1_reg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/p_14_reg_2595_pp1_iter2_reg_reg[0]' (FDE) to 'inst/odata_U0/p_53_reg_2587_pp1_iter2_reg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/Hi_assign_reg_2687_reg[3]' (FDE) to 'inst/odata_U0/Hi_assign_2_reg_2741_reg[1]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/Hi_assign_reg_2687_reg[2]' (FDE) to 'inst/odata_U0/Lo_assign_reg_2681_reg[2]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/Hi_assign_reg_2687_reg[1]' (FDE) to 'inst/odata_U0/Lo_assign_reg_2681_reg[1]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/Lo_assign_reg_2681_reg[4]' (FDE) to 'inst/odata_U0/Lo_assign_reg_2681_reg[2]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/Lo_assign_reg_2681_reg[3]' (FDE) to 'inst/odata_U0/Lo_assign_reg_2681_reg[1]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/Lo_assign_reg_2681_reg[1]' (FDE) to 'inst/odata_U0/Hi_assign_2_reg_2741_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/Hi_assign_2_reg_2741_reg[3]' (FDE) to 'inst/odata_U0/Hi_assign_1_reg_2714_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/Hi_assign_2_reg_2741_reg[2]' (FDE) to 'inst/odata_U0/Lo_assign_2_reg_2735_reg[2]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/Hi_assign_2_reg_2741_reg[1]' (FDE) to 'inst/odata_U0/Lo_assign_2_reg_2735_reg[1]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/Lo_assign_2_reg_2735_reg[4]' (FDE) to 'inst/odata_U0/Lo_assign_2_reg_2735_reg[2]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/Lo_assign_2_reg_2735_reg[3]' (FDE) to 'inst/odata_U0/Lo_assign_2_reg_2735_reg[1]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/Lo_assign_2_reg_2735_reg[1]' (FDE) to 'inst/odata_U0/Hi_assign_1_reg_2714_reg[1]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/Hi_assign_1_reg_2714_reg[2]' (FDE) to 'inst/odata_U0/Lo_assign_1_reg_2708_reg[2]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/Hi_assign_1_reg_2714_reg[1]' (FDE) to 'inst/odata_U0/Lo_assign_1_reg_2708_reg[1]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/Lo_assign_1_reg_2708_reg[4]' (FDE) to 'inst/odata_U0/Lo_assign_1_reg_2708_reg[2]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/Lo_assign_1_reg_2708_reg[3]' (FDE) to 'inst/odata_U0/Lo_assign_1_reg_2708_reg[1]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/p_116_reg_2804_reg[3]' (FDE) to 'inst/odata_U0/tmp_14_reg_2809_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/p_116_reg_2804_reg[4]' (FDE) to 'inst/odata_U0/tmp_14_reg_2809_reg[1]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/p_116_reg_2804_reg[5]' (FDE) to 'inst/odata_U0/tmp_14_reg_2809_reg[2]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/p_116_reg_2804_reg[6]' (FDE) to 'inst/odata_U0/tmp_14_reg_2809_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/p_116_reg_2804_reg[7]' (FDE) to 'inst/odata_U0/tmp_14_reg_2809_reg[4]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/p_116_reg_2804_reg[8]' (FDE) to 'inst/odata_U0/tmp_14_reg_2809_reg[5]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/p_116_reg_2804_reg[9]' (FDE) to 'inst/odata_U0/tmp_14_reg_2809_reg[6]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/p_116_reg_2804_reg[10]' (FDE) to 'inst/odata_U0/tmp_14_reg_2809_reg[7]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/Hi_assign_reg_2687_pp1_iter4_reg_reg[3]' (FDE) to 'inst/odata_U0/Hi_assign_1_reg_2714_pp1_iter4_reg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/Hi_assign_reg_2687_pp1_iter4_reg_reg[2]' (FDE) to 'inst/odata_U0/Lo_assign_reg_2681_pp1_iter4_reg_reg[4]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/Hi_assign_reg_2687_pp1_iter4_reg_reg[1]' (FDE) to 'inst/odata_U0/Hi_assign_1_reg_2714_pp1_iter4_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/Lo_assign_reg_2681_pp1_iter4_reg_reg[4]' (FDE) to 'inst/odata_U0/Lo_assign_reg_2681_pp1_iter4_reg_reg[2]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/Lo_assign_reg_2681_pp1_iter4_reg_reg[3]' (FDE) to 'inst/odata_U0/Hi_assign_1_reg_2714_pp1_iter4_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/Lo_assign_reg_2681_pp1_iter4_reg_reg[1]' (FDE) to 'inst/odata_U0/Hi_assign_1_reg_2714_pp1_iter4_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/Hi_assign_2_reg_2741_pp1_iter4_reg_reg[3]' (FDE) to 'inst/odata_U0/Hi_assign_1_reg_2714_pp1_iter4_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/Hi_assign_2_reg_2741_pp1_iter4_reg_reg[2]' (FDE) to 'inst/odata_U0/Lo_assign_2_reg_2735_pp1_iter4_reg_reg[4]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/Hi_assign_2_reg_2741_pp1_iter4_reg_reg[1]' (FDE) to 'inst/odata_U0/Hi_assign_1_reg_2714_pp1_iter4_reg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/Lo_assign_2_reg_2735_pp1_iter4_reg_reg[4]' (FDE) to 'inst/odata_U0/Lo_assign_2_reg_2735_pp1_iter4_reg_reg[2]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/Lo_assign_2_reg_2735_pp1_iter4_reg_reg[3]' (FDE) to 'inst/odata_U0/Hi_assign_1_reg_2714_pp1_iter4_reg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/Lo_assign_2_reg_2735_pp1_iter4_reg_reg[1]' (FDE) to 'inst/odata_U0/Hi_assign_1_reg_2714_pp1_iter4_reg_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/odata_U0/\Lo_assign_reg_2681_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/odata_U0/\tmp_118_reg_2792_reg[5] )
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/tmp_118_reg_2792_reg[4]' (FDE) to 'inst/odata_U0/tmp_118_reg_2792_reg[2]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/tmp_118_reg_2792_reg[3]' (FDE) to 'inst/odata_U0/tmp_118_reg_2792_reg[1]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (inst/odata_U0/\Hi_assign_reg_2687_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/odata_U0/\tmp_118_reg_2792_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\ouser_U0/ap_done_reg_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/odata_U0/ap_done_reg_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\olast_U0/ap_done_reg_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\Loop_1_proc66_U0/ap_done_reg_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\Loop_2_proc67_U0/ap_done_reg_reg )
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[0]' (FDRE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[1]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[1]' (FDRE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[2]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[2]' (FDRE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[3]' (FDRE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[4]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[4]' (FDRE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[5]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[5]' (FDRE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[6]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[6]' (FDRE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[7]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[7]' (FDRE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[8]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[8]' (FDRE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[9]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[9]' (FDRE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[10]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[10]' (FDRE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[11]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[11]' (FDRE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[12]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[12]' (FDRE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[13]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[13]' (FDRE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[14]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[14]' (FDRE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[15]' (FDRE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[16]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[16]' (FDRE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[17]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[17]' (FDRE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[18]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[18]' (FDRE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[19]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[19]' (FDRE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[20]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[20]' (FDRE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[21]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[21]' (FDRE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[22]' (FDRE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[23]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[23]' (FDRE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[24]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[24]' (FDRE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[25]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[25]' (FDRE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[26]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[26]' (FDRE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[27]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[27]' (FDRE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[28]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[28]' (FDRE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[29]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[29]' (FDRE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[30]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[30]' (FDRE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\demosaic_root_BUS_AXI4LS_s_axi_U/int_ap_return_reg[31] )
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[4]' (FDE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[5]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[5]' (FDE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[6]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[6]' (FDE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[8]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[8]' (FDE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[9]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[9]' (FDE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[10]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[10]' (FDE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[11]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[11]' (FDE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[12]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[12]' (FDE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[13]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[13]' (FDE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[14]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[14]' (FDE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[15]' (FDE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[16]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[16]' (FDE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[17]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[17]' (FDE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[18]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[18]' (FDE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[19]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[19]' (FDE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[20]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[20]' (FDE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[21]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[21]' (FDE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[22]' (FDE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[23]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[23]' (FDE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[24]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[24]' (FDE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[25]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[25]' (FDE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[26]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[26]' (FDE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[27]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[27]' (FDE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[28]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[28]' (FDE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[29]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[29]' (FDE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[30]'
+INFO: [Synth 8-3886] merging instance 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[30]' (FDE) to 'inst/demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\demosaic_root_BUS_AXI4LS_s_axi_U/rdata_reg[31] )
+WARNING: [Synth 8-3332] Sequential element (demosaic_root_BUS_AXI4LS_s_axi_U/FSM_onehot_wstate_reg[0]) is unused and will be removed from module demosaic_root.
+WARNING: [Synth 8-3332] Sequential element (demosaic_root_BUS_AXI4LS_s_axi_U/FSM_onehot_rstate_reg[0]) is unused and will be removed from module demosaic_root.
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/Hi_assign_reg_2687_reg[5]' (FDE) to 'inst/odata_U0/tmp_68_reg_2729_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/odata_U0/Hi_assign_reg_2687_reg[4]' (FDE) to 'inst/odata_U0/Lo_assign_2_reg_2735_reg[2]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/odata_U0/\tmp_26_reg_2695_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (inst/odata_U0/\tmp_110_reg_2763_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/odata_U0/\tmp_110_reg_2763_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/odata_U0/\tmp_121_reg_2799_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/odata_U0/\tmp_121_reg_2799_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/odata_U0/\tmp_121_reg_2799_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/odata_U0/\tmp_121_reg_2799_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/odata_U0/\tmp_121_reg_2799_reg[1] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (inst/odata_U0/\tmp_110_reg_2763_pp1_iter4_reg_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/odata_U0/\tmp_110_reg_2763_pp1_iter4_reg_reg[5] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 2425.105 ; gain = 173.684 ; free physical = 4892 ; free virtual = 12130
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping  Report (see note below)
++--------------------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
+|Module Name               | RTL Object | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | Cascade Heights | 
++--------------------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
+|odata_p_idata_bufbkb_ram: | ram_reg    | 256 x 40(READ_FIRST)   | W |   | 256 x 40(WRITE_FIRST)  |   | R | Port A and B     | 0      | 1      |                 | 
+|odata_p_idata_bufbkb_ram: | ram_reg    | 256 x 40(READ_FIRST)   | W |   | 256 x 40(WRITE_FIRST)  |   | R | Port A and B     | 0      | 1      |                 | 
++--------------------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6837] The timing for the instance inst/odata_U0/i_1_0/p_idata_buffer1_0_s_U/odata_p_idata_bufbkb_ram_U/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/odata_U0/i_1_1/p_idata_buffer1_1_s_U/odata_p_idata_bufbkb_ram_U/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:46 ; elapsed = 00:01:08 . Memory (MB): peak = 2811.613 ; gain = 560.191 ; free physical = 5626 ; free virtual = 12877
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:52 ; elapsed = 00:01:14 . Memory (MB): peak = 2925.809 ; gain = 674.387 ; free physical = 7859 ; free virtual = 15108
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping  Report
++--------------------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
+|Module Name               | RTL Object | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | Cascade Heights | 
++--------------------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
+|odata_p_idata_bufbkb_ram: | ram_reg    | 256 x 40(READ_FIRST)   | W |   | 256 x 40(WRITE_FIRST)  |   | R | Port A and B     | 0      | 1      |                 | 
+|odata_p_idata_bufbkb_ram: | ram_reg    | 256 x 40(READ_FIRST)   | W |   | 256 x 40(WRITE_FIRST)  |   | R | Port A and B     | 0      | 1      |                 | 
++--------------------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6837] The timing for the instance inst/odata_U0/p_idata_buffer1_0_s_U/odata_p_idata_bufbkb_ram_U/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/odata_U0/p_idata_buffer1_1_s_U/odata_p_idata_bufbkb_ram_U/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:54 ; elapsed = 00:01:15 . Memory (MB): peak = 2925.809 ; gain = 674.387 ; free physical = 7736 ; free virtual = 14986
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:55 ; elapsed = 00:01:17 . Memory (MB): peak = 2925.809 ; gain = 674.387 ; free physical = 7624 ; free virtual = 14874
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:55 ; elapsed = 00:01:17 . Memory (MB): peak = 2925.809 ; gain = 674.387 ; free physical = 7624 ; free virtual = 14874
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:55 ; elapsed = 00:01:17 . Memory (MB): peak = 2925.809 ; gain = 674.387 ; free physical = 7617 ; free virtual = 14867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:55 ; elapsed = 00:01:17 . Memory (MB): peak = 2925.809 ; gain = 674.387 ; free physical = 7617 ; free virtual = 14867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:55 ; elapsed = 00:01:17 . Memory (MB): peak = 2925.809 ; gain = 674.387 ; free physical = 7605 ; free virtual = 14855
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:55 ; elapsed = 00:01:17 . Memory (MB): peak = 2925.809 ; gain = 674.387 ; free physical = 7604 ; free virtual = 14853
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++--------------+---------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name   | RTL Name                                    | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++--------------+---------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|demosaic_root | odata_U0/p_64_reg_2627_pp1_iter4_reg_reg[0] | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|demosaic_root | odata_U0/p_89_reg_2647_pp1_iter4_reg_reg[0] | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
++--------------+---------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+
+Dynamic Shift Register Report:
++------------+------------------+--------+------------+--------+---------+--------+--------+--------+
+|Module Name | RTL Name         | Length | Data Width | SRL16E | SRLC32E | Mux F7 | Mux F8 | Mux F9 | 
++------------+------------------+--------+------------+--------+---------+--------+--------+--------+
+|dsrl        | SRL_SIG_reg[15]  | 40     | 40         | 40     | 0       | 0      | 0      | 0      | 
+|dsrl__1     | SRL_SIG_reg[319] | 1      | 1          | 0      | 10      | 5      | 3      | 0      | 
+|dsrl__2     | SRL_SIG_reg[15]  | 24     | 24         | 24     | 0       | 0      | 0      | 0      | 
+|dsrl__3     | SRL_SIG_reg[15]  | 1      | 1          | 1      | 0       | 0      | 0      | 0      | 
++------------+------------------+--------+------------+--------+---------+--------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY8   |    67|
+|2     |LUT1     |    48|
+|3     |LUT2     |   117|
+|4     |LUT3     |   275|
+|5     |LUT4     |   150|
+|6     |LUT5     |   595|
+|7     |LUT6     |   357|
+|8     |MUXF7    |     4|
+|9     |RAMB36E2 |     2|
+|10    |SRL16E   |    68|
+|11    |FDRE     |  1521|
+|12    |FDSE     |    59|
++------+---------+------+
+
+Report Instance Areas: 
++------+-------------------------------------+-------------------------------+------+
+|      |Instance                             |Module                         |Cells |
++------+-------------------------------------+-------------------------------+------+
+|1     |top                                  |                               |  3263|
+|2     |  inst                               |demosaic_root                  |  3263|
+|3     |    Loop_1_proc66_U0                 |Loop_1_proc66                  |   182|
+|4     |    Loop_2_proc67_U0                 |Loop_2_proc67                  |   167|
+|5     |    demosaic_root_BUS_AXI4LS_s_axi_U |demosaic_root_BUS_AXI4LS_s_axi |    54|
+|6     |    odata_U0                         |odata                          |  2337|
+|7     |      p_idata_buffer1_0_s_U          |odata_p_idata_bufbkb           |   110|
+|8     |        odata_p_idata_bufbkb_ram_U   |odata_p_idata_bufbkb_ram_4     |   110|
+|9     |      p_idata_buffer1_1_s_U          |odata_p_idata_bufbkb_3         |   114|
+|10    |        odata_p_idata_bufbkb_ram_U   |odata_p_idata_bufbkb_ram       |   114|
+|11    |    olast_U0                         |olast                          |    87|
+|12    |    ouser_U0                         |ouser                          |   176|
+|13    |    p_idata_V_bv_V_U                 |fifo_w40_d16_A                 |    61|
+|14    |      U_fifo_w40_d16_A_ram           |fifo_w40_d16_A_shiftReg        |    44|
+|15    |    p_ilast_V_bv_V_U                 |fifo_w1_d320_A                 |    30|
+|16    |    p_iuser_V_bv_V_U                 |fifo_w1_d320_A_0               |    30|
+|17    |    p_odata_V_bv_V_U                 |fifo_w24_d16_A                 |    45|
+|18    |      U_fifo_w24_d16_A_ram           |fifo_w24_d16_A_shiftReg        |    28|
+|19    |    p_olast_V_bv_V_U                 |fifo_w1_d16_A                  |    22|
+|20    |      U_fifo_w1_d16_A_ram            |fifo_w1_d16_A_shiftReg_2       |     5|
+|21    |    p_ouser_V_bv_V_U                 |fifo_w1_d16_A_1                |    22|
+|22    |      U_fifo_w1_d16_A_ram            |fifo_w1_d16_A_shiftReg         |     5|
+|23    |    start_for_Loop_2_dEe_U           |start_for_Loop_2_dEe           |     9|
+|24    |    start_for_odata_U0_U             |start_for_odata_U0             |    11|
+|25    |    start_for_olast_U0_U             |start_for_olast_U0             |    10|
+|26    |    start_for_ouser_U0_U             |start_for_ouser_U0             |    10|
++------+-------------------------------------+-------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:55 ; elapsed = 00:01:17 . Memory (MB): peak = 2925.809 ; gain = 674.387 ; free physical = 7604 ; free virtual = 14853
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 36 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:50 ; elapsed = 00:01:10 . Memory (MB): peak = 2925.809 ; gain = 500.703 ; free physical = 7639 ; free virtual = 14889
+Synthesis Optimization Complete : Time (s): cpu = 00:00:55 ; elapsed = 00:01:17 . Memory (MB): peak = 2925.816 ; gain = 674.387 ; free physical = 7639 ; free virtual = 14889
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 71 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2965.824 ; gain = 0.000 ; free physical = 7123 ; free virtual = 14373
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+237 Infos, 124 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:06 ; elapsed = 00:01:32 . Memory (MB): peak = 2965.824 ; gain = 1531.836 ; free physical = 7068 ; free virtual = 14318
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2965.824 ; gain = 0.000 ; free physical = 7062 ; free virtual = 14312
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.runs/design_1_demosaic_root_0_0_synth_1/design_1_demosaic_root_0_0.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_demosaic_root_0_0, cache-ID = de8db7484d524978
+INFO: [Coretcl 2-1174] Renamed 25 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2989.836 ; gain = 0.000 ; free physical = 7135 ; free virtual = 14388
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.runs/design_1_demosaic_root_0_0_synth_1/design_1_demosaic_root_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_demosaic_root_0_0_utilization_synth.rpt -pb design_1_demosaic_root_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 30 10:58:50 2020...

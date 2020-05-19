@@ -1,0 +1,1 @@
+cmd_net/bluetooth/rfcomm/built-in.a := rm -f net/bluetooth/rfcomm/built-in.a; aarch64-xilinx-linux-ar rcSTPD net/bluetooth/rfcomm/built-in.a net/bluetooth/rfcomm/core.o net/bluetooth/rfcomm/sock.o net/bluetooth/rfcomm/tty.o

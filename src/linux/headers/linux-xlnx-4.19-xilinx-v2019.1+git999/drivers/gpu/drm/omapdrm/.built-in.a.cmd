@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/omapdrm/built-in.a := rm -f drivers/gpu/drm/omapdrm/built-in.a; aarch64-xilinx-linux-ar rcSTPD drivers/gpu/drm/omapdrm/built-in.a drivers/gpu/drm/omapdrm/dss/built-in.a drivers/gpu/drm/omapdrm/displays/built-in.a

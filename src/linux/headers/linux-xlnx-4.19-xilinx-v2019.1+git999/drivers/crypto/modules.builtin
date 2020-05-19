@@ -1,0 +1,3 @@
+kernel/drivers/crypto/zynqmp-aes.ko
+kernel/drivers/crypto/zynqmp-sha.ko
+kernel/drivers/crypto/zynqmp-rsa.ko

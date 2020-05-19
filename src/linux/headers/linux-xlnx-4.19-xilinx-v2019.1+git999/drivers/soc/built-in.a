@@ -1,0 +1,9 @@
+!<thin>
+//                                              80        `
+xilinx/zynqmp_power.o/
+xilinx/zynqmp_pm_domains.o/
+xilinx/zynqmp/tap_delays.o/
+
+/0              0           0     0     644     223552    `
+/23             0           0     0     644     135960    `
+/51             0           0     0     644     100808    `

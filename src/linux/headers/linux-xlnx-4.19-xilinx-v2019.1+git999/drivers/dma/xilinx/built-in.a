@@ -1,0 +1,11 @@
+!<thin>
+//                                              62        `
+xilinx_dpdma.o/
+xilinx_dma.o/
+zynqmp_dma.o/
+xilinx_frmbuf.o/
+
+/0              0           0     0     644     409032    `
+/16             0           0     0     644     574704    `
+/30             0           0     0     644     374872    `
+/44            /0           0     0     644     362296    `

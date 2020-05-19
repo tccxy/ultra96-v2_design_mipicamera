@@ -1,0 +1,16 @@
+!<thin>
+//                                              112       `
+fpga-mgr.o/
+zynqmp-fpga.o/
+xilinx-afi.o/
+fpga-bridge.o/
+xilinx-pr-decoupler.o/
+fpga-region.o/
+of-fpga-region.o/
+/0              0           0     0     644     240768    `
+/12             0           0     0     644     228232    `
+/27             0           0     0     644     126936    `
+/41             0           0     0     644     172896    `
+/56             0           0     0     644     122552    `
+/79             0           0     0     644     126472    `
+/94             0           0     0     644     134632    `

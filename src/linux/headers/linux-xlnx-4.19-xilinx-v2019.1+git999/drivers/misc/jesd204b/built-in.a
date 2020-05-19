@@ -1,0 +1,11 @@
+!<thin>
+//                                              72        `
+jesd_phy.o/
+gtx7s_cpll_bands.o/
+gtx7s_qpll_bands.o/
+xilinx_jesd204b.o/
+
+/0              0           0     0     644     158648    `
+/12             0           0     0     644     6776      `
+/32             0           0     0     644     6944      `
+/52             0           0     0     644     221856    `

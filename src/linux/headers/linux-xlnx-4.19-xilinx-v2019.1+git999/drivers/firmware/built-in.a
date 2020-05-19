@@ -1,0 +1,32 @@
+!<thin>
+//                                              234       `
+psci.o/
+efi/efi.o/
+efi/vars.o/
+efi/reboot.o/
+efi/memattr.o/
+efi/tpm.o/
+efi/capsule.o/
+efi/memmap.o/
+efi/esrt.o/
+efi/runtime-wrappers.o/
+efi/libstub/lib-ksyms.o/
+efi/arm-init.o/
+efi/arm-runtime.o/
+xilinx/zynqmp.o/
+xilinx/zynqmp-ggs.o/
+/0              0           0     0     644     207880    `
+/8              0           0     0     644     249584    `
+/19             0           0     0     644     251496    `
+/31             0           0     0     644     151608    `
+/45             0           0     0     644     175072    `
+/60             0           0     0     644     153752    `
+/71             0           0     0     644     190968    `
+/86             0           0     0     644     180120    `
+/100            0           0     0     644     205096    `
+/112            0           0     0     644     238248    `
+/136            0           0     0     644     656       `
+/161            0           0     0     644     194592    `
+/177            0           0     0     644     189016    `
+/196            0           0     0     644     226872    `
+/213            0           0     0     644     141552    `

@@ -1,0 +1,16 @@
+kernel/drivers/gpu/drm/drm_kms_helper.ko
+kernel/drivers/gpu/drm/drm.ko
+kernel/drivers/gpu/drm/drm_panel_orientation_quirks.ko
+kernel/drivers/gpu/drm/panel/panel-simple.ko
+kernel/drivers/gpu/drm/xilinx/xilinx_drm.ko
+kernel/drivers/gpu/drm/xilinx/xilinx_drm_dp.ko
+kernel/drivers/gpu/drm/xilinx/xilinx_drm_dp_sub.ko
+kernel/drivers/gpu/drm/xilinx/xilinx_drm_sdi.ko
+kernel/drivers/gpu/drm/xlnx/xlnx_drm.ko
+kernel/drivers/gpu/drm/xlnx/xlnx_csc.ko
+kernel/drivers/gpu/drm/xlnx/xlnx_scaler.ko
+kernel/drivers/gpu/drm/xlnx/xlnx_dsi.ko
+kernel/drivers/gpu/drm/xlnx/xlnx_mixer.ko
+kernel/drivers/gpu/drm/xlnx/xlnx_pl_disp.ko
+kernel/drivers/gpu/drm/xlnx/xlnx-sdi.ko
+kernel/drivers/gpu/drm/xlnx/zynqmp-dpsub.ko

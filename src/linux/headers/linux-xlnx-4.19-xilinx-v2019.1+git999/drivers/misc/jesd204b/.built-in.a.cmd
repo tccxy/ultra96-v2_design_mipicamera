@@ -1,0 +1,1 @@
+cmd_drivers/misc/jesd204b/built-in.a := rm -f drivers/misc/jesd204b/built-in.a; aarch64-xilinx-linux-ar rcSTPD drivers/misc/jesd204b/built-in.a drivers/misc/jesd204b/jesd_phy.o drivers/misc/jesd204b/gtx7s_cpll_bands.o drivers/misc/jesd204b/gtx7s_qpll_bands.o drivers/misc/jesd204b/xilinx_jesd204b.o

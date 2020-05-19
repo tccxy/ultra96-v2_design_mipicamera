@@ -1,0 +1,24 @@
+!<thin>
+//                                              172       `
+edac_mc.o/
+edac_device.o/
+edac_mc_sysfs.o/
+edac_module.o/
+edac_device_sysfs.o/
+wq.o/
+edac_pci.o/
+edac_pci_sysfs.o/
+synopsys_edac.o/
+cortex_arm64_edac.o/
+zynqmp_ocm_edac.o/
+/0              0           0     0     644     263088    `
+/11             0           0     0     644     212464    `
+/26            /0           0     0     644     267896    `
+/43             0           0     0     644     168464    `
+/58             0           0     0     644     203312    `
+/79             0           0     0     644     167816    `
+/85             0           0     0     644     212760    `
+/97             0           0     0     644     220488    `
+/115           /0           0     0     644     245656    `
+/132            0           0     0     644     206928    `
+/153            0           0     0     644     215040    `

@@ -1,0 +1,1 @@
+cmd_fs/nfs/flexfilelayout/nfs_layout_flexfiles.o := aarch64-xilinx-linux-ld.bfd    --sysroot=/home/zw/share/ultra96/mipitest/build/tmp/work/ultra96_zynqmp-xilinx-linux/linux-xlnx/4.19-xilinx-v2019.1+git999-r0/recipe-sysroot  -EL  -maarch64elf    -r -o fs/nfs/flexfilelayout/nfs_layout_flexfiles.o fs/nfs/flexfilelayout/flexfilelayout.o fs/nfs/flexfilelayout/flexfilelayoutdev.o 

@@ -1,0 +1,4 @@
+kernel/net/bridge/netfilter/ebtables.ko
+kernel/net/bridge/netfilter/ebtable_filter.ko
+kernel/net/bridge/netfilter/ebtable_nat.ko
+kernel/net/bridge/netfilter/ebt_mark.ko

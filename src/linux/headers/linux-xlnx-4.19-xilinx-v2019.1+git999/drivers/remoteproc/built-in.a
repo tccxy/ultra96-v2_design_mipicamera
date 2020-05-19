@@ -1,0 +1,13 @@
+!<thin>
+//                                              108       `
+remoteproc_core.o/
+remoteproc_debugfs.o/
+remoteproc_sysfs.o/
+remoteproc_virtio.o/
+remoteproc_elf_loader.o/
+
+/0              0           0     0     644     376448    `
+/19             0           0     0     644     189592    `
+/41             0           0     0     644     173592    `
+/61             0           0     0     644     178768    `
+/82             0           0     0     644     173416    `

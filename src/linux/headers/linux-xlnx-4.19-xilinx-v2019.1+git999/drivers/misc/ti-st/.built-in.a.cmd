@@ -1,0 +1,1 @@
+cmd_drivers/misc/ti-st/built-in.a := rm -f drivers/misc/ti-st/built-in.a; aarch64-xilinx-linux-ar rcSTPD drivers/misc/ti-st/built-in.a drivers/misc/ti-st/st_core.o drivers/misc/ti-st/st_kim.o drivers/misc/ti-st/st_ll.o

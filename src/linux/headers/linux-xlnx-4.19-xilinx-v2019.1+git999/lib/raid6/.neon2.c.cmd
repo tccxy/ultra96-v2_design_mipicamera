@@ -1,0 +1,1 @@
+cmd_lib/raid6/neon2.c := awk -f/home/zw/share/ultra96/mipitest/linux-xlnx/lib/raid6/unroll.awk -vN=2 < /home/zw/share/ultra96/mipitest/linux-xlnx/lib/raid6/neon.uc > lib/raid6/neon2.c || ( rm -f lib/raid6/neon2.c && exit 1 )

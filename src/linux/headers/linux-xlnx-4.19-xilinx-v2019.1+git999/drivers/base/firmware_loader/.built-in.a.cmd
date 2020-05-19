@@ -1,0 +1,1 @@
+cmd_drivers/base/firmware_loader/built-in.a := rm -f drivers/base/firmware_loader/built-in.a; aarch64-xilinx-linux-ar rcSTPD drivers/base/firmware_loader/built-in.a drivers/base/firmware_loader/fallback_table.o drivers/base/firmware_loader/main.o

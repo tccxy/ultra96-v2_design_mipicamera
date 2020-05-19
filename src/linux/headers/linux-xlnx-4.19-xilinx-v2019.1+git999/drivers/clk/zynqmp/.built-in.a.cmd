@@ -1,0 +1,1 @@
+cmd_drivers/clk/zynqmp/built-in.a := rm -f drivers/clk/zynqmp/built-in.a; aarch64-xilinx-linux-ar rcSTPD drivers/clk/zynqmp/built-in.a drivers/clk/zynqmp/pll.o drivers/clk/zynqmp/clk-gate-zynqmp.o drivers/clk/zynqmp/divider.o drivers/clk/zynqmp/clk-mux-zynqmp.o drivers/clk/zynqmp/clkc.o

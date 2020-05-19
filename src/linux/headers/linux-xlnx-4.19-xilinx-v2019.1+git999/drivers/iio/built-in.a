@@ -1,0 +1,22 @@
+!<thin>
+//                                              228       `
+industrialio-core.o/
+industrialio-event.o/
+inkern.o/
+industrialio-buffer.o/
+industrialio-trigger.o/
+adc/xilinx-xadc-core.o/
+adc/xilinx-xadc-events.o/
+adc/xilinx-ams.o/
+buffer/industrialio-triggered-buffer.o/
+buffer/kfifo_buf.o/
+/0              0           0     0     644     351424    `
+/21             0           0     0     644     212208    `
+/43             0           0     0     644     186912    `
+/53             0           0     0     644     271648    `
+/76             0           0     0     644     199600    `
+/100            0           0     0     644     269552    `
+/124            0           0     0     644     104176    `
+/150            0           0     0     644     254216    `
+/168            0           0     0     644     118296    `
+/208            0           0     0     644     186384    `

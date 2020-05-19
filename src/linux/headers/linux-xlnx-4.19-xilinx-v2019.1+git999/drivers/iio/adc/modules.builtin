@@ -1,0 +1,2 @@
+kernel/drivers/iio/adc/xilinx-xadc.ko
+kernel/drivers/iio/adc/xilinx-ams.ko

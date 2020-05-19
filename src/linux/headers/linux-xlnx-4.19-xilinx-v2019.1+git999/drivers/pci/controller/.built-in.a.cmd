@@ -1,0 +1,1 @@
+cmd_drivers/pci/controller/built-in.a := rm -f drivers/pci/controller/built-in.a; aarch64-xilinx-linux-ar rcSTPD drivers/pci/controller/built-in.a drivers/pci/controller/pcie-xilinx-nwl.o drivers/pci/controller/dwc/built-in.a drivers/pci/controller/pci-thunder-ecam.o drivers/pci/controller/pci-thunder-pem.o drivers/pci/controller/pci-xgene.o

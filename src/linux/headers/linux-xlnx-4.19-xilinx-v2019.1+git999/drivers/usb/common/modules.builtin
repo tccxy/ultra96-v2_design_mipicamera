@@ -1,0 +1,2 @@
+kernel/drivers/usb/common/usb-common.ko
+kernel/drivers/usb/common/usb-otg-fsm.ko

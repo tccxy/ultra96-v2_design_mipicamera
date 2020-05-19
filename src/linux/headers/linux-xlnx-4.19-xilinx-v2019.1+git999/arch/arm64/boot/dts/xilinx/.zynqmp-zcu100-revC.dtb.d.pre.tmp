@@ -1,0 +1,13 @@
+zynqmp-zcu100-revC.o: \
+ /home/zw/share/ultra96/mipitest/linux-xlnx/arch/arm64/boot/dts/xilinx/zynqmp-zcu100-revC.dts \
+ /home/zw/share/ultra96/mipitest/linux-xlnx/arch/arm64/boot/dts/xilinx/zynqmp.dtsi \
+ /home/zw/share/ultra96/mipitest/linux-xlnx/scripts/dtc/include-prefixes/dt-bindings/power/xlnx-zynqmp-power.h \
+ /home/zw/share/ultra96/mipitest/linux-xlnx/scripts/dtc/include-prefixes/dt-bindings/reset/xlnx-zynqmp-resets.h \
+ /home/zw/share/ultra96/mipitest/linux-xlnx/arch/arm64/boot/dts/xilinx/zynqmp-clk-ccf.dtsi \
+ /home/zw/share/ultra96/mipitest/linux-xlnx/scripts/dtc/include-prefixes/dt-bindings/clock/xlnx-zynqmp-clk.h \
+ /home/zw/share/ultra96/mipitest/linux-xlnx/scripts/dtc/include-prefixes/dt-bindings/input/input.h \
+ /home/zw/share/ultra96/mipitest/linux-xlnx/scripts/dtc/include-prefixes/dt-bindings/input/linux-event-codes.h \
+ /home/zw/share/ultra96/mipitest/linux-xlnx/scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ /home/zw/share/ultra96/mipitest/linux-xlnx/scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
+ /home/zw/share/ultra96/mipitest/linux-xlnx/scripts/dtc/include-prefixes/dt-bindings/pinctrl/pinctrl-zynqmp.h \
+ /home/zw/share/ultra96/mipitest/linux-xlnx/scripts/dtc/include-prefixes/dt-bindings/phy/phy.h

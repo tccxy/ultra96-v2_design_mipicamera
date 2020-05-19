@@ -1,0 +1,11 @@
+kernel/net/netfilter/nfnetlink.ko
+kernel/net/netfilter/nfnetlink_log.ko
+kernel/net/netfilter/nf_log_common.ko
+kernel/net/netfilter/x_tables.ko
+kernel/net/netfilter/xt_tcpudp.ko
+kernel/net/netfilter/xt_mark.ko
+kernel/net/netfilter/xt_CHECKSUM.ko
+kernel/net/netfilter/xt_LOG.ko
+kernel/net/netfilter/xt_limit.ko
+kernel/net/netfilter/xt_mac.ko
+kernel/net/netfilter/xt_multiport.ko

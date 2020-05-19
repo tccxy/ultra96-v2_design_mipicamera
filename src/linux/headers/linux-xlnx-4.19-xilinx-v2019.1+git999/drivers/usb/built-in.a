@@ -1,0 +1,191 @@
+!<thin>
+//                                              1910      `
+core/usb.o/
+core/hub.o/
+core/hcd.o/
+core/urb.o/
+core/message.o/
+core/driver.o/
+core/config.o/
+core/file.o/
+core/buffer.o/
+core/sysfs.o/
+core/endpoint.o/
+core/devio.o/
+core/notify.o/
+core/generic.o/
+core/quirks.o/
+core/devices.o/
+core/phy.o/
+core/port.o/
+core/of.o/
+core/hcd-pci.o/
+phy/phy.o/
+phy/of.o/
+dwc3/core.o/
+dwc3/host.o/
+dwc3/gadget.o/
+dwc3/ep0.o/
+dwc3/gadget_hibernation.o/
+dwc3/drd.o/
+dwc3/debugfs.o/
+dwc3/dwc3-haps.o/
+dwc3/dwc3-of-simple.o/
+host/pci-quirks.o/
+host/ehci-hcd.o/
+host/ehci-pci.o/
+host/xhci.o/
+host/xhci-mem.o/
+host/xhci-ext-caps.o/
+host/xhci-ring.o/
+host/xhci-hub.o/
+host/xhci-dbg.o/
+host/xhci-trace.o/
+host/xhci-debugfs.o/
+host/xhci-pci.o/
+host/xhci-plat.o/
+storage/uas.o/
+storage/scsiglue.o/
+storage/protocol.o/
+storage/transport.o/
+storage/usb.o/
+storage/initializers.o/
+storage/sierra_ms.o/
+storage/option_ms.o/
+storage/usual-tables.o/
+gadget/usbstring.o/
+gadget/config.o/
+gadget/epautoconf.o/
+gadget/composite.o/
+gadget/functions.o/
+gadget/configfs.o/
+gadget/u_f.o/
+gadget/udc/core.o/
+gadget/udc/trace.o/
+gadget/udc/udc-xilinx.o/
+gadget/function/f_acm.o/
+gadget/function/f_loopback.o/
+gadget/function/f_sourcesink.o/
+gadget/function/u_serial.o/
+gadget/function/f_serial.o/
+gadget/function/f_obex.o/
+gadget/function/u_ether.o/
+gadget/function/f_ncm.o/
+gadget/function/f_ecm.o/
+gadget/function/f_eem.o/
+gadget/function/f_subset.o/
+gadget/function/f_rndis.o/
+gadget/function/rndis.o/
+gadget/function/f_mass_storage.o/
+gadget/function/storage_common.o/
+gadget/function/f_fs.o/
+gadget/function/u_audio.o/
+gadget/function/f_uac1.o/
+gadget/function/f_uac1_legacy.o/
+gadget/function/u_uac1_legacy.o/
+gadget/function/f_uac2.o/
+gadget/function/f_uvc.o/
+gadget/function/uvc_queue.o/
+gadget/function/uvc_v4l2.o/
+gadget/function/uvc_video.o/
+gadget/function/uvc_configfs.o/
+gadget/function/f_midi.o/
+gadget/function/f_hid.o/
+gadget/function/f_printer.o/
+common/common.o/
+common/usb-otg-fsm.o/
+
+/0              0           0     0     644     271712    `
+/12             0           0     0     644     536984    `
+/24             0           0     0     644     455416    `
+/36             0           0     0     644     265448    `
+/48             0           0     0     644     349880    `
+/64             0           0     0     644     337688    `
+/79             0           0     0     644     216848    `
+/94             0           0     0     644     174424    `
+/107            0           0     0     644     197760    `
+/122            0           0     0     644     275440    `
+/136            0           0     0     644     164056    `
+/153            0           0     0     644     779568    `
+/167            0           0     0     644     149232    `
+/182            0           0     0     644     154856    `
+/198            0           0     0     644     173288    `
+/213            0           0     0     644     204136    `
+/229            0           0     0     644     108840    `
+/241            0           0     0     644     214504    `
+/254            0           0     0     644     149888    `
+/265            0           0     0     644     234072    `
+/281            0           0     0     644     212416    `
+/292            0           0     0     644     141008    `
+/302            0           0     0     644     425024    `
+/315            0           0     0     644     204096    `
+/328            0           0     0     644     476248    `
+/343            0           0     0     644     254656    `
+/355            0           0     0     644     222880    `
+/382            0           0     0     644     248504    `
+/394            0           0     0     644     323304    `
+/410            0           0     0     644     175144    `
+/428            0           0     0     644     264528    `
+/451            0           0     0     644     249824    `
+/470            0           0     0     644     1090896   `
+/487            0           0     0     644     233824    `
+/504            0           0     0     644     807160    `
+/517            0           0     0     644     383128    `
+/534           /0           0     0     644     176336    `
+/556            0           0     0     644     463656    `
+/574            0           0     0     644     348368    `
+/591            0           0     0     644     168672    `
+/608            0           0     0     644     143032    `
+/627            0           0     0     644     296688    `
+/648            0           0     0     644     248792    `
+/665            0           0     0     644     268928    `
+/683            0           0     0     644     462696    `
+/698            0           0     0     644     283120    `
+/718            0           0     0     644     241552    `
+/738            0           0     0     644     314624    `
+/759            0           0     0     644     412240    `
+/774            0           0     0     644     205584    `
+/798            0           0     0     644     250480    `
+/819            0           0     0     644     225528    `
+/840            0           0     0     644     163080    `
+/864            0           0     0     644     151800    `
+/884            0           0     0     644     187880    `
+/901            0           0     0     644     165408    `
+/922            0           0     0     644     347656    `
+/942            0           0     0     644     182232    `
+/962            0           0     0     644     420800    `
+/981            0           0     0     644     147568    `
+/995            0           0     0     644     313872    `
+/1014           0           0     0     644     134760    `
+/1034           0           0     0     644     377784    `
+/1059           0           0     0     644     234728    `
+/1084           0           0     0     644     213584    `
+/1114           0           0     0     644     257976    `
+/1146           0           0     0     644     344784    `
+/1174           0           0     0     644     194320    `
+/1202           0           0     0     644     201200    `
+/1228           0           0     0     644     431976    `
+/1255           0           0     0     644     418000    `
+/1280           0           0     0     644     342944    `
+/1305           0           0     0     644     342248    `
+/1330           0           0     0     644     323480    `
+/1358           0           0     0     644     372960    `
+/1385           0           0     0     644     342448    `
+/1410           0           0     0     644     534696    `
+/1444           0           0     0     644     243024    `
+/1478           0           0     0     644     621592    `
+/1502           0           0     0     644     233520    `
+/1529           0           0     0     644     247576    `
+/1555          /0           0     0     644     307040    `
+/1588          /0           0     0     644     245304    `
+/1621           0           0     0     644     275320    `
+/1647           0           0     0     644     301384    `
+/1672           0           0     0     644     228504    `
+/1701           0           0     0     644     283744    `
+/1729           0           0     0     644     214856    `
+/1758           0           0     0     644     447304    `
+/1790           0           0     0     644     301608    `
+/1816           0           0     0     644     375088    `
+/1841           0           0     0     644     434544    `
+/1870           0           0     0     644     164160    `
+/1887           0           0     0     644     210240    `

@@ -1,0 +1,39 @@
+!<thin>
+//                                              342       `
+soc-core.o/
+soc-dapm.o/
+soc-jack.o/
+soc-utils.o/
+soc-pcm.o/
+soc-io.o/
+soc-devres.o/
+soc-ops.o/
+soc-generic-dmaengine-pcm.o/
+codecs/hdmi-codec.o/
+xilinx/xilinx-dp-pcm.o/
+xilinx/xilinx-dp-codec.o/
+xilinx/xilinx-dp-card.o/
+xilinx/xlnx_formatter_pcm.o/
+xilinx/xlnx_sdi_audio.o/
+xilinx/xlnx_i2s.o/
+xilinx/xlnx_spdif.o/
+xilinx/xlnx_pl_snd_card.o/
+
+/0              0           0     0     644     609208    `
+/12             0           0     0     644     547096    `
+/24             0           0     0     644     294768    `
+/36             0           0     0     644     252488    `
+/49             0           0     0     644     444720    `
+/60             0           0     0     644     240592    `
+/70             0           0     0     644     239552    `
+/84             0           0     0     644     280968    `
+/95             0           0     0     644     275840    `
+/124            0           0     0     644     295448    `
+/145           /0           0     0     644     236920    `
+/169            0           0     0     644     233984    `
+/195            0           0     0     644     226936    `
+/220            0           0     0     644     307512    `
+/249            0           0     0     644     276192    `
+/274            0           0     0     644     247616    `
+/293            0           0     0     644     261888    `
+/314            0           0     0     644     251008    `

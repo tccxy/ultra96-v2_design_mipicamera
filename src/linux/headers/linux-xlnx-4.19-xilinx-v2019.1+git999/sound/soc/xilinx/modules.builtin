@@ -1,0 +1,8 @@
+kernel/sound/soc/xilinx/xilinx-dp-pcm.ko
+kernel/sound/soc/xilinx/xilinx-dp-codec.ko
+kernel/sound/soc/xilinx/xilinx-dp-card.ko
+kernel/sound/soc/xilinx/xlnx_formatter_pcm.ko
+kernel/sound/soc/xilinx/xlnx_sdi_audio.ko
+kernel/sound/soc/xilinx/snd-soc-xlnx-i2s.ko
+kernel/sound/soc/xilinx/xlnx_spdif.ko
+kernel/sound/soc/xilinx/xlnx_pl_snd_card.ko

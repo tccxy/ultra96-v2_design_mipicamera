@@ -1,0 +1,1 @@
+cmd_drivers/input/built-in.a := rm -f drivers/input/built-in.a; aarch64-xilinx-linux-ar rcSTPD drivers/input/built-in.a drivers/input/input.o drivers/input/input-compat.o drivers/input/input-mt.o drivers/input/ff-core.o drivers/input/input-polldev.o drivers/input/input-leds.o drivers/input/evdev.o drivers/input/keyboard/built-in.a drivers/input/mouse/built-in.a

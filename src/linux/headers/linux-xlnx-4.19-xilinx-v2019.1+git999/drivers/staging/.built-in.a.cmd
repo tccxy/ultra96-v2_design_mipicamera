@@ -1,0 +1,1 @@
+cmd_drivers/staging/built-in.a := rm -f drivers/staging/built-in.a; aarch64-xilinx-linux-ar rcSTPD drivers/staging/built-in.a drivers/staging/media/built-in.a drivers/staging/iio/built-in.a drivers/staging/android/built-in.a drivers/staging/apf/built-in.a drivers/staging/clocking-wizard/built-in.a drivers/staging/fclk/built-in.a drivers/staging/xlnx_ctrl_driver/built-in.a

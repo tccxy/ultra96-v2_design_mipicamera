@@ -1,0 +1,23 @@
+!<thin>
+//                                              202       `
+eeprom/at24.o/
+eeprom/at25.o/
+ti-st/st_core.o/
+ti-st/st_kim.o/
+ti-st/st_ll.o/
+xilinx_sdfec.o/
+jesd204b/jesd_phy.o/
+jesd204b/gtx7s_cpll_bands.o/
+jesd204b/gtx7s_qpll_bands.o/
+jesd204b/xilinx_jesd204b.o/
+
+/0              0           0     0     644     182504    `
+/15             0           0     0     644     231656    `
+/30             0           0     0     644     318832    `
+/47             0           0     0     644     259552    `
+/63             0           0     0     644     166648    `
+/78             0           0     0     644     352040    `
+/94             0           0     0     644     158648    `
+/115            0           0     0     644     6776      `
+/144            0           0     0     644     6944      `
+/173            0           0     0     644     221856    `

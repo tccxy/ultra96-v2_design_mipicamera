@@ -1,0 +1,1 @@
+cmd_drivers/leds/built-in.a := rm -f drivers/leds/built-in.a; aarch64-xilinx-linux-ar rcSTPD drivers/leds/built-in.a drivers/leds/led-core.o drivers/leds/led-class.o drivers/leds/led-triggers.o drivers/leds/leds-gpio.o drivers/leds/trigger/built-in.a

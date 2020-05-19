@@ -1,0 +1,579 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Apr 30 10:58:42 2020
+# Process ID: 32466
+# Current directory: /home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.runs/bd_d10d_vfb_0_0_synth_1
+# Command line: vivado -log bd_d10d_vfb_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_d10d_vfb_0_0.tcl
+# Log file: /home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.runs/bd_d10d_vfb_0_0_synth_1/bd_d10d_vfb_0_0.vds
+# Journal file: /home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.runs/bd_d10d_vfb_0_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source bd_d10d_vfb_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/zw/share/ultra96/ultra96_design/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/zw/software/vivado_2019/Vivado/2019.1/data/ip'.
+Command: synth_design -top bd_d10d_vfb_0_0 -part xczu3eg-sbva484-1-e -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu3eg'
+INFO: [Device 21-403] Loading part xczu3eg-sbva484-1-e
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 554 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2251.305 ; gain = 0.000 ; free physical = 5891 ; free virtual = 13139
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'bd_d10d_vfb_0_0' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_vfb_0_0.v:53]
+	Parameter AXIS_TDATA_WIDTH bound to: 64 - type: integer 
+	Parameter AXIS_TUSER_WIDTH bound to: 96 - type: integer 
+	Parameter AXIS_TDEST_WIDTH bound to: 4 - type: integer 
+	Parameter VFB_TU_WIDTH bound to: 1 - type: integer 
+	Parameter VFB_DATA_TYPE bound to: 43 - type: integer 
+	Parameter VFB_FILTER_VC bound to: 0 - type: integer 
+	Parameter VFB_VC bound to: 0 - type: integer 
+	Parameter VFB_REQ_BUFFER bound to: 1 - type: integer 
+	Parameter VFB_REQ_REORDER bound to: 1 - type: integer 
+	Parameter VFB_FIFO_DEPTH bound to: 128 - type: integer 
+	Parameter VFB_FIFO_WIDTH bound to: 64 - type: integer 
+	Parameter VFB_PXL_W bound to: 10 - type: integer 
+	Parameter VFB_PXL_W_BB bound to: 16 - type: integer 
+	Parameter VFB_4PXL_W bound to: 40 - type: integer 
+	Parameter VFB_DCONV_OWIDTH bound to: 64 - type: integer 
+	Parameter VFB_OP_DWIDTH bound to: 40 - type: integer 
+	Parameter VFB_OP_PIXELS bound to: 4 - type: integer 
+	Parameter VFB_BYPASS_WC bound to: 1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'bd_d10d_vfb_0_0_core' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_vfb_0_0_core.v:53]
+	Parameter AXIS_TDATA_WIDTH bound to: 64 - type: integer 
+	Parameter AXIS_TUSER_WIDTH bound to: 96 - type: integer 
+	Parameter AXIS_TDEST_WIDTH bound to: 4 - type: integer 
+	Parameter VFB_TU_WIDTH bound to: 1 - type: integer 
+	Parameter VFB_TSB0_WIDTH bound to: 32 - type: integer 
+	Parameter VFB_TSB1_WIDTH bound to: 0 - type: integer 
+	Parameter VFB_TSB2_WIDTH bound to: 3 - type: integer 
+	Parameter VFB_DATA_TYPE bound to: 43 - type: integer 
+	Parameter VFB_FILTER_VC bound to: 0 - type: integer 
+	Parameter VFB_VC bound to: 0 - type: integer 
+	Parameter VFB_REQ_BUFFER bound to: 1 - type: integer 
+	Parameter VFB_REQ_REORDER bound to: 1 - type: integer 
+	Parameter VFB_FIFO_DEPTH bound to: 128 - type: integer 
+	Parameter VFB_FIFO_WIDTH bound to: 64 - type: integer 
+	Parameter VFB_DCONV_TUW bound to: 24 - type: integer 
+	Parameter VFB_PXL_W bound to: 10 - type: integer 
+	Parameter VFB_PXL_W_BB bound to: 16 - type: integer 
+	Parameter VFB_4PXL_W bound to: 40 - type: integer 
+	Parameter VFB_DCONV_OWIDTH bound to: 64 - type: integer 
+	Parameter VFB_OP_DWIDTH bound to: 40 - type: integer 
+	Parameter VFB_OP_PIXELS bound to: 4 - type: integer 
+	Parameter VFB_BYPASS_WC bound to: 1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'vfb_v1_0_13_reorder' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/2a66/hdl/vfb_v1_0_rfs.v:126]
+	Parameter AXIS_TDATA_WIDTH bound to: 64 - type: integer 
+	Parameter AXIS_TUSER_WIDTH bound to: 96 - type: integer 
+	Parameter AXIS_TDEST_WIDTH bound to: 4 - type: integer 
+	Parameter VFB_TU_WIDTH bound to: 1 - type: integer 
+	Parameter VFB_TSB0_WIDTH bound to: 32 - type: integer 
+	Parameter VFB_TSB1_WIDTH bound to: 0 - type: integer 
+	Parameter VFB_TSB2_WIDTH bound to: 3 - type: integer 
+	Parameter VFB_OP_DWIDTH bound to: 40 - type: integer 
+	Parameter VFB_DATA_TYPE bound to: 43 - type: integer 
+	Parameter VFB_VC bound to: 0 - type: integer 
+	Parameter VFB_FILTER_VC bound to: 0 - type: integer 
+	Parameter VFB_REQ_BUFFER bound to: 1 - type: integer 
+	Parameter VFB_REQ_REORDER bound to: 1 - type: integer 
+	Parameter VFB_FIFO_WIDTH bound to: 64 - type: integer 
+	Parameter VFB_DCONV_TUW bound to: 24 - type: integer 
+	Parameter VFB_4PXL_W bound to: 40 - type: integer 
+	Parameter VFB_DEBUG_CNTS bound to: 0 - type: integer 
+	Parameter SB_WIDTH bound to: 41 - type: integer 
+	Parameter TU_BYTES bound to: 8 - type: integer 
+	Parameter STAGE_WIDTH bound to: 180 - type: integer 
+	Parameter TE_L bound to: 0 - type: integer 
+	Parameter TE_H bound to: 3 - type: integer 
+	Parameter TU_L bound to: 4 - type: integer 
+	Parameter TU_H bound to: 99 - type: integer 
+	Parameter TK_L bound to: 100 - type: integer 
+	Parameter TK_H bound to: 107 - type: integer 
+	Parameter TD_L bound to: 108 - type: integer 
+	Parameter TD_H bound to: 171 - type: integer 
+	Parameter TL_L bound to: 172 - type: integer 
+	Parameter TL_H bound to: 172 - type: integer 
+	Parameter TB_L bound to: 173 - type: integer 
+	Parameter TB_H bound to: 179 - type: integer 
+WARNING: [Synth 8-6014] Unused sequential element REQ_BUFFER_RAW10.buff_tk_i_reg was removed.  [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/2a66/hdl/vfb_v1_0_rfs.v:1367]
+WARNING: [Synth 8-6014] Unused sequential element REQ_BUFFER_RAW10.liv_tk_reg was removed.  [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/2a66/hdl/vfb_v1_0_rfs.v:1368]
+WARNING: [Synth 8-6014] Unused sequential element first_beat_rcvd_reg was removed.  [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/2a66/hdl/vfb_v1_0_rfs.v:2777]
+INFO: [Synth 8-6155] done synthesizing module 'vfb_v1_0_13_reorder' (1#1) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/2a66/hdl/vfb_v1_0_rfs.v:126]
+INFO: [Synth 8-6157] synthesizing module 'bd_d10d_vfb_0_0_axis_dconverter' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_vfb_0_0/src/verilog/bd_d10d_vfb_0_0_axis_dconverter.v:47]
+INFO: [Synth 8-6155] done synthesizing module 'bd_d10d_vfb_0_0_axis_dconverter' (2#1) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_vfb_0_0/src/verilog/bd_d10d_vfb_0_0_axis_dconverter.v:47]
+INFO: [Synth 8-6157] synthesizing module 'vfb_v1_0_13_op_inf' [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/2a66/hdl/vfb_v1_0_rfs.v:2946]
+	Parameter VFB_TU_WIDTH bound to: 1 - type: integer 
+	Parameter VFB_TSB0_WIDTH bound to: 32 - type: integer 
+	Parameter VFB_TSB1_WIDTH bound to: 0 - type: integer 
+	Parameter VFB_TSB2_WIDTH bound to: 3 - type: integer 
+	Parameter AXIS_TDATA_WIDTH bound to: 64 - type: integer 
+	Parameter VFB_PXL_W bound to: 10 - type: integer 
+	Parameter VFB_PXL_W_BB bound to: 16 - type: integer 
+	Parameter VFB_DCONV_OWIDTH bound to: 64 - type: integer 
+	Parameter VFB_OP_DWIDTH bound to: 40 - type: integer 
+	Parameter VFB_OP_PIXELS bound to: 4 - type: integer 
+	Parameter LSB_P0 bound to: 0 - type: integer 
+	Parameter MSB_P0 bound to: 9 - type: integer 
+	Parameter LSB_P1 bound to: 16 - type: integer 
+	Parameter MSB_P1 bound to: 25 - type: integer 
+	Parameter LSB_P2 bound to: 32 - type: integer 
+	Parameter MSB_P2 bound to: 41 - type: integer 
+	Parameter LSB_P3 bound to: 48 - type: integer 
+	Parameter MSB_P3 bound to: 57 - type: integer 
+	Parameter MAXOF_2DT_PXLW bound to: 10 - type: integer 
+	Parameter VFB_SB_PIXELS bound to: 8 - type: integer 
+	Parameter ZEROPADDING bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'vfb_v1_0_13_op_inf' (3#1) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ipshared/2a66/hdl/vfb_v1_0_rfs.v:2946]
+WARNING: [Synth 8-3848] Net m_axis_tdest in module/entity bd_d10d_vfb_0_0_core does not have driver. [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_vfb_0_0_core.v:127]
+INFO: [Synth 8-6155] done synthesizing module 'bd_d10d_vfb_0_0_core' (4#1) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_vfb_0_0_core.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_d10d_vfb_0_0' (5#1) [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_vfb_0_0.v:53]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdata[63]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdata[62]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdata[61]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdata[60]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdata[59]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdata[58]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdata[47]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdata[46]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdata[45]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdata[44]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdata[43]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdata[42]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdata[31]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdata[30]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdata[29]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdata[28]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdata[27]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdata[26]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdata[15]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdata[14]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdata[13]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdata[12]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdata[11]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdata[10]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tid[31]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tid[30]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tid[29]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tid[28]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tid[27]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tid[26]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tid[25]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tid[24]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tid[23]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tid[22]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tid[21]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tid[20]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tid[19]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tid[18]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tid[17]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tid[16]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tid[15]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tid[14]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tid[13]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tid[12]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tid[11]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tid[10]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdest[31]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdest[30]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdest[29]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdest[28]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdest[27]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdest[26]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdest[25]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdest[24]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdest[23]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdest[22]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdest[21]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdest[20]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdest[19]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdest[18]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdest[17]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdest[16]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdest[15]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdest[14]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdest[13]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdest[12]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdest[11]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdest[10]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdest[9]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdest[8]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdest[7]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdest[6]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdest[5]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdest[4]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdest[3]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdest[2]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdest[1]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tdest[0]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tuser[2]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tuser[1]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tkeep[7]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tkeep[6]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tkeep[5]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tkeep[4]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tkeep[3]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tkeep[2]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tkeep[1]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port s_axis_tkeep[0]
+WARNING: [Synth 8-3331] design vfb_v1_0_13_op_inf has unconnected port sband_te
+WARNING: [Synth 8-3331] design bd_d10d_vfb_0_0_axis_dconverter has unconnected port aclk
+WARNING: [Synth 8-3331] design bd_d10d_vfb_0_0_axis_dconverter has unconnected port aresetn
+WARNING: [Synth 8-3331] design bd_d10d_vfb_0_0_axis_dconverter has unconnected port s_axis_tuser[23]
+WARNING: [Synth 8-3331] design bd_d10d_vfb_0_0_axis_dconverter has unconnected port s_axis_tuser[22]
+WARNING: [Synth 8-3331] design bd_d10d_vfb_0_0_axis_dconverter has unconnected port s_axis_tuser[21]
+WARNING: [Synth 8-3331] design bd_d10d_vfb_0_0_axis_dconverter has unconnected port s_axis_tuser[20]
+WARNING: [Synth 8-3331] design bd_d10d_vfb_0_0_axis_dconverter has unconnected port s_axis_tuser[19]
+WARNING: [Synth 8-3331] design bd_d10d_vfb_0_0_axis_dconverter has unconnected port s_axis_tuser[18]
+WARNING: [Synth 8-3331] design bd_d10d_vfb_0_0_axis_dconverter has unconnected port s_axis_tuser[17]
+WARNING: [Synth 8-3331] design bd_d10d_vfb_0_0_axis_dconverter has unconnected port s_axis_tuser[16]
+WARNING: [Synth 8-3331] design bd_d10d_vfb_0_0_axis_dconverter has unconnected port s_axis_tuser[15]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2251.305 ; gain = 0.000 ; free physical = 5859 ; free virtual = 13108
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2251.305 ; gain = 0.000 ; free physical = 5838 ; free virtual = 13087
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2251.305 ; gain = 0.000 ; free physical = 5838 ; free virtual = 13087
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_vfb_0_0_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.srcs/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_vfb_0_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.runs/bd_d10d_vfb_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.runs/bd_d10d_vfb_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2410.082 ; gain = 0.000 ; free physical = 5293 ; free virtual = 12543
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2410.082 ; gain = 0.000 ; free physical = 5292 ; free virtual = 12541
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 2410.082 ; gain = 158.777 ; free physical = 5246 ; free virtual = 12496
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu3eg-sbva484-1-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 2410.082 ; gain = 158.777 ; free physical = 5245 ; free virtual = 12495
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for inst. (constraint file  /home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.runs/bd_d10d_vfb_0_0_synth_1/dont_touch.xdc, line 6).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 2410.082 ; gain = 158.777 ; free physical = 5245 ; free virtual = 12495
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 2410.082 ; gain = 158.777 ; free physical = 5293 ; free virtual = 12543
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
+	  10 Input      8 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
+	   8 Input      4 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	              180 Bit    Registers := 2     
+	               64 Bit    Registers := 5     
+	               41 Bit    Registers := 2     
+	               40 Bit    Registers := 1     
+	               32 Bit    Registers := 2     
+	               24 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 15    
++---Muxes : 
+	   2 Input    180 Bit        Muxes := 4     
+	   4 Input    176 Bit        Muxes := 2     
+	   4 Input     64 Bit        Muxes := 1     
+	   2 Input     64 Bit        Muxes := 3     
+	   2 Input     41 Bit        Muxes := 2     
+	   4 Input     40 Bit        Muxes := 1     
+	   2 Input     40 Bit        Muxes := 1     
+	   4 Input     32 Bit        Muxes := 1     
+	   4 Input     24 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 2     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 33    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module vfb_v1_0_13_reorder 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
+	  10 Input      8 Bit       Adders := 1     
+	   8 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	              180 Bit    Registers := 2     
+	               64 Bit    Registers := 4     
+	               41 Bit    Registers := 2     
+	               32 Bit    Registers := 2     
+	               24 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   2 Input    180 Bit        Muxes := 4     
+	   4 Input    176 Bit        Muxes := 2     
+	   4 Input     64 Bit        Muxes := 1     
+	   2 Input     64 Bit        Muxes := 2     
+	   2 Input     41 Bit        Muxes := 2     
+	   4 Input     32 Bit        Muxes := 1     
+	   4 Input     24 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 16    
+Module vfb_v1_0_13_op_inf 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               64 Bit    Registers := 1     
+	               40 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
+	                9 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 1     
+	   4 Input     40 Bit        Muxes := 1     
+	   2 Input     40 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 2     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 17    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 360 (col length:72)
+BRAMs: 432 (col length: RAMB18 72 RAMB36 36)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3886] merging instance 'inst/reorder/s_fifo_tu_reg[21]' (FDRE) to 'inst/reorder/s_fifo_tu_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/reorder/s_fifo_tu_reg[18]' (FDRE) to 'inst/reorder/s_fifo_tu_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/reorder/s_fifo_tu_reg[15]' (FDRE) to 'inst/reorder/s_fifo_tu_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/reorder/s_fifo_tu_reg[12]' (FDRE) to 'inst/reorder/s_fifo_tu_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/reorder/s_fifo_tu_reg[9]' (FDRE) to 'inst/reorder/s_fifo_tu_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/reorder/s_fifo_tu_reg[6]' (FDRE) to 'inst/reorder/s_fifo_tu_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/reorder/s_fifo_tu_reg[3]' (FDRE) to 'inst/reorder/s_fifo_tu_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\op_inf/sband_tk_r_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\op_inf/vfb_cnt0_inferred /\op_inf/vfb_cnt_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\op_inf/vfb_cnt0_inferred /\op_inf/vfb_cnt_reg[0] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 2410.082 ; gain = 158.777 ; free physical = 5304 ; free virtual = 12558
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:34 ; elapsed = 00:00:54 . Memory (MB): peak = 2799.590 ; gain = 548.285 ; free physical = 4068 ; free virtual = 11347
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:36 ; elapsed = 00:00:56 . Memory (MB): peak = 2852.199 ; gain = 600.895 ; free physical = 3887 ; free virtual = 11172
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:36 ; elapsed = 00:00:56 . Memory (MB): peak = 2860.207 ; gain = 608.902 ; free physical = 3871 ; free virtual = 11156
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:37 ; elapsed = 00:00:57 . Memory (MB): peak = 2863.176 ; gain = 611.871 ; free physical = 3817 ; free virtual = 11102
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:37 ; elapsed = 00:00:57 . Memory (MB): peak = 2863.176 ; gain = 611.871 ; free physical = 3817 ; free virtual = 11103
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:37 ; elapsed = 00:00:57 . Memory (MB): peak = 2863.176 ; gain = 611.871 ; free physical = 3845 ; free virtual = 11130
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:37 ; elapsed = 00:00:57 . Memory (MB): peak = 2863.176 ; gain = 611.871 ; free physical = 3844 ; free virtual = 11129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:37 ; elapsed = 00:00:57 . Memory (MB): peak = 2863.176 ; gain = 611.871 ; free physical = 3839 ; free virtual = 11124
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:37 ; elapsed = 00:00:57 . Memory (MB): peak = 2863.176 ; gain = 611.871 ; free physical = 3838 ; free virtual = 11123
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT1  |     4|
+|2     |LUT2  |    41|
+|3     |LUT3  |    82|
+|4     |LUT4  |    14|
+|5     |LUT5  |   111|
+|6     |LUT6  |   144|
+|7     |MUXF7 |    40|
+|8     |FDRE  |   544|
++------+------+------+
+
+Report Instance Areas: 
++------+------------+---------------------+------+
+|      |Instance    |Module               |Cells |
++------+------------+---------------------+------+
+|1     |top         |                     |   980|
+|2     |  inst      |bd_d10d_vfb_0_0_core |   980|
+|3     |    op_inf  |vfb_v1_0_13_op_inf   |   116|
+|4     |    reorder |vfb_v1_0_13_reorder  |   864|
++------+------------+---------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:37 ; elapsed = 00:00:57 . Memory (MB): peak = 2863.176 ; gain = 611.871 ; free physical = 3837 ; free virtual = 11122
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:32 ; elapsed = 00:00:50 . Memory (MB): peak = 2863.176 ; gain = 453.094 ; free physical = 3868 ; free virtual = 11153
+Synthesis Optimization Complete : Time (s): cpu = 00:00:37 ; elapsed = 00:00:57 . Memory (MB): peak = 2863.184 ; gain = 611.871 ; free physical = 3869 ; free virtual = 11154
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 40 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2918.035 ; gain = 0.000 ; free physical = 3704 ; free virtual = 10998
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+36 Infos, 104 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:47 ; elapsed = 00:01:13 . Memory (MB): peak = 2918.035 ; gain = 1484.758 ; free physical = 3917 ; free virtual = 11212
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2918.035 ; gain = 0.000 ; free physical = 3917 ; free virtual = 11212
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.runs/bd_d10d_vfb_0_0_synth_1/bd_d10d_vfb_0_0.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP bd_d10d_vfb_0_0, cache-ID = d6c3d39982e7573f
+INFO: [Coretcl 2-1174] Renamed 3 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2942.047 ; gain = 0.000 ; free physical = 3894 ; free virtual = 11190
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/zw/share/ultra96/ultra96_design/ultra96_design/ultra96_design.runs/bd_d10d_vfb_0_0_synth_1/bd_d10d_vfb_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file bd_d10d_vfb_0_0_utilization_synth.rpt -pb bd_d10d_vfb_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 30 11:00:08 2020...

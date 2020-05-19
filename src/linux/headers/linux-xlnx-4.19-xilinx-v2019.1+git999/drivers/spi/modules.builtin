@@ -1,0 +1,5 @@
+kernel/drivers/spi/spidev.ko
+kernel/drivers/spi/spi-bitbang.ko
+kernel/drivers/spi/spi-cadence.ko
+kernel/drivers/spi/spi-xilinx.ko
+kernel/drivers/spi/spi-zynqmp-gqspi.ko

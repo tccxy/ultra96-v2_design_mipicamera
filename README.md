@@ -8,7 +8,7 @@
 * vivado generate hardware bit and export
 
 * petalinux project base 
-http://zedboard.org/support/design/28476/181
+http://zedboard.org/support/design/28476/181  
 -->Ultra96-V2 – PetaLinux 2019.1 BSP
 
 * petalinux-config --get-hw-description ./ultra96_design/ultra96_design.sdk
